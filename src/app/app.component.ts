@@ -1,6 +1,9 @@
 import { Component, HostListener, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ContactComponent } from './contact/contact.component';
+import { enableRipple } from '@syncfusion/ej2-base';
+
+enableRipple(true);
 
 @Component({
   selector: 'kd-root',

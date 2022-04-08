@@ -27,6 +27,7 @@
     "@angular/platform-browser": "11.2.10",
     "@angular/platform-browser-dynamic": "11.2.10",
     "@angular/router": "11.2.10",
+    "@syncfusion/ej2-angular-navigations": "^20.1.47",
     "bootstrap": "5.0.0",
     "rxjs": "6.6.7",
     "tslib": "2.2.0",

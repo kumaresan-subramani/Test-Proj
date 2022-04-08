@@ -15,6 +15,17 @@
   }
 
   .container2 {
+     
+   .renault{
+     .line{
+       width: 400px;
+       margin-top: 70vh;
+       margin-left: -22vw;
+       box-shadow: #ec4740 0px 5px, #b93f3b  0px 10px, #7a3230 0px 15px, #522a28 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+      
+     }
+   }
+
     .img {
       margin-top: 150px;
       margin-left: 50vw;
@@ -105,7 +116,7 @@
       margin: 45px 40px 35px;
     }
 
-    button {
+    .button {
       display: inline-block;
       align-items: center;
       padding: 12px 18px;
@@ -145,6 +156,9 @@
     }
 
     .container3 {
+      height: 100vh;
+      margin: auto;
+      border-bottom: 5px solid #ec4740;
 
       .box {
         position: absolute;
@@ -165,6 +179,44 @@
     }
 
     .container4 {
+      height: 100vh;
+      margin: auto;
+      border-bottom: 5px solid #ec4740;
+
+
+      h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #3cf9ff;
+        margin-top: 20px ;
+        padding: 30px;
+      }
+      .carousel{
+        height: 700px;
+        width: 100%;
+        .default-carousel-section .carousel-sample {
+          margin: 0 auto 2em;
+          max-width: 500px;
+          height: 300px;
+        }
+        
+        .default-carousel .e-carousel-items .e-carousel-item .img-container {
+          height: 100%;
+        }
+        
+        .default-carousel .e-carousel-items .e-carousel-item .img-caption {
+          bottom: 7em;
+          color: #fff;
+          font-size: 12pt;
+          height: 2em;
+          position: relative;
+          padding: 0.3em 1em;
+          text-align: center;
+          width: 100%;
+        }
+      }
+      
       .box {
         position: absolute;
         width: 542px;
@@ -183,12 +235,51 @@
     }
 
     .container5 {
+      height: 100vh;
+      margin: auto;
+      border-bottom: 5px solid #ec4740;
+
+
+      .carousel{
+        height: 700px;
+        width: 100%;
+
+        .default-carousel-section .carousel-sample {
+          margin: 0 auto 2em;
+          max-width: 500px;
+          height: 300px;
+        }
+        
+        .default-carousel .e-carousel-items .e-carousel-item .img-container {
+          height: 100%;
+        }
+        
+        .default-carousel .e-carousel-items .e-carousel-item .img-caption {
+          bottom: 7em;
+          color: #fff;
+          font-size: 12pt;
+          height: 2em;
+          position: relative;
+          padding: 0.3em 1em;
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+      h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #3cf9ff;
+        margin-top: 20px ;
+        padding: 30px;
+      }
       .box {
         position: absolute;
         width: 567px;
         height: 400px;
-        left: 738px;
-        top: 230vh;
+        left: 750px;
+        top: 255vh;
         background: #181637;
         border-radius: 48px;
       }
@@ -550,6 +641,7 @@ button:hover {
 
 .mouse {
   transition-duration: 0.3s;
+ 
 }
 
 // ---------------------------------------Mobile Mode-------------------------------------------

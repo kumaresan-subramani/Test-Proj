@@ -30,11 +30,11 @@
     <div id="Home">
       <div class="container2">
         <div class="social_media">
-          <img (click)="openSite('https://www.facebook.com/KlartDigi/')" class="icon mouse"
+          <img (click)="selectTitle('Cinibot')" class="icon mouse"
             src="assets/PNGs/aboutus.png" />
-          <img (click)="openSite('https://www.instagram.com/klartdigi/')" class="icon mouse"
+          <img (click)="selectTitle('ItSolutions')"class="icon mouse"
             src="assets/PNGs/services.png" />
-          <img (click)="openSite('https://www.linkedin.com/company/klart-digi/')" class="icon mouse"
+          <img (click)="selectTitle('LogisticsERP')" class="icon mouse"
             src="assets/PNGs/how.png" />
           <!-- <img (click)="openSite('https://twitter.com/KlartDigi')" class="icon mouse twitter"
             src="assets/SVGs/twitter.svg" />
@@ -45,16 +45,17 @@
             <p class="empower">Empowering the <span>Internet</span> generation.</p>
             <p class="desc">Klart'Digi promises you endless best in class IT Solutions. We are the first to
               revolutionize cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
-            <button mat-button>Learn More</button>
+            <button class="button" (click)="parallaxScroll()" mat-button>Learn More</button>
           </div>
-          <div>
+          <div class="renault">
             <img class="img" src="assets/SVGs/renault.svg" />
+            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
           </div>
         </div>
       </div>
-      <!-- <div (click)="parallaxScroll()" style="text-align: center;margin-top: -80px;">
+      <div  (click)="parallaxScroll()" style="text-align: center;margin-top: 80px; margin-left: 500px;">
         <img class="mouse" src="assets/SVGs/Vector.svg" />
-      </div> -->
+      </div>
     </div>
   </div>
   <div class="middle">
@@ -72,14 +73,14 @@
               <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings light
                 and opportunities for theatres to market and realize economies of scale through strategic
                 and systematic theatre management. Manage your theatre comfortably with us.</p>
-              <button mat-button (click)="visit()">Visit Site</button>
-              <button (click)="openDialog('Cinibot')" mat-button class="contact">Contact Us</button>
+              <button mat-button class="button" (click)="visit()">Visit Site</button>
+              <button class="button" (click)="openDialog('Cinibot')" mat-button class="contact">Contact Us</button>
             </div>
           </div>
         </div>
       </div>
       <div class="container4" id="ItSolutions">
-        <div>
+        <!-- <div>
           <div>
             <div class="box">
               <p class="title">IT SOLUTIONS
@@ -94,11 +95,66 @@
           <div>
             <img class="img" src="assets/SVGs/03. ITSolutions_Illustration.svg" />
           </div>
-        </div>
+         </div> -->
+         <h1 >WHAT WE DO !</h1>
+         <div class="carousel">
+              <ejs-carousel cssClass="default-carousel">
+                <e-carousel-items>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <figure class="img-container">
+                        <img src="assets/PNGs/Cinibot_Illustration.png" alt="bridge" style="height:100%;width:100%;" />
+                        <figcaption class="img-caption">Golden Gate Bridge, San Francisco</figcaption>
+                      </figure>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <figure class="img-container">
+                        <img src="assets/SVGs/03. ITSolutions_Illustration.svg" alt="spring_trees" style="height:100%;width:100%;" />
+                        <figcaption class="img-caption">Spring Flower Trees</figcaption>
+                      </figure>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <figure class="img-container">
+                        <img src="assets/SVGs/03. ITSolutions_Illustration.svg" alt="waterfall" style="height:100%;width:100%;" />
+                        <figcaption class="img-caption"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ab voluptas accusantium ipsam, voluptate possimus dolore. 
+                                                           Repellat, repudiandae voluptatum earum iusto asperiores architecto labore ullam consequuntur fuga voluptates qui cupiditate
+                                                            nulla atque, sequi officia est, dolorum eum. Dolores optio aspernatur voluptatum, voluptatibus voluptates itaque? Corporis nemo reiciendis iusto dignissimos adipisci.</p></figcaption>
+                      </figure>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <figure class="img-container">
+                        <img src="assets/SVGs/03. ITSolutions_Illustration.svg" alt="sea" style="height:100%;width:100%;" />
+                        <figcaption class="img-caption">Anse Source d'Argent, Seychelles</figcaption>
+                      </figure>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <figure class="img-container">
+                        <img src="assets/PNGs/Cinibot_Illustration.png" alt="rocks" style="height:100%;width:100%;" />
+                        <figcaption class="img-caption">Stonehenge, England</figcaption>
+                      </figure>
+                    </ng-template>
+                  </e-carousel-item>
+                </e-carousel-items>
+              </ejs-carousel>
+            </div>
+
+
+
+
+
+
       </div>
       <div class="container5" id="LogisticsERP">
-        <div>
-          <div>
+        <h1>HOW WE DO !</h1>
+          <!-- <div>
             <img class="img" src="assets/SVGs/04. Logistics_Illustration.svg" />
           </div>
           <div class="box">
@@ -108,9 +164,41 @@
             <p class="desc">We resolved the biggest logistics management problem with a dedicated R&D team.
               We make managing your company easier thanks to real-time expert reports. A pure current century
               logistics management software. You should get the wheels to work with reals.</p>
-            <button (click)="openDialog('Logistics ERP')" mat-button>Contact Us</button>
+            <button class="button" (click)="openDialog('Logistics ERP')" mat-button>Contact Us</button>
+          </div> -->
+          <div class="carousel">
+            <ejs-carousel cssClass="default-carousel">
+              <e-carousel-items>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <figure class="img-container">
+                      <img src="assets/PNGs/Cinibot_Illustration.png" alt="bridge" style="height:100%;width:100%;" />
+                      <figcaption class="img-caption">Golden Gate Bridge, San Francisco</figcaption>
+                    </figure>
+                  </ng-template>
+                </e-carousel-item>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <figure class="img-container">
+                      <img src="assets/SVGs/03. ITSolutions_Illustration.svg" alt="spring_trees" style="height:100%;width:100%;" />
+                      <figcaption class="img-caption">Spring Flower Trees</figcaption>
+                    </figure>
+                  </ng-template>
+                </e-carousel-item>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <figure class="img-container">
+                      <img src="assets/SVGs/03. ITSolutions_Illustration.svg" alt="waterfall" style="height:100%;width:100%;" />
+                      <figcaption class="img-caption"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ab voluptas accusantium ipsam, voluptate possimus dolore. 
+                                                         Repellat, repudiandae voluptatum earum iusto asperiores architecto labore ullam consequuntur fuga voluptates qui cupiditate
+                                                          nulla atque, sequi officia est, dolorum eum. Dolores optio aspernatur voluptatum, voluptatibus voluptates itaque? Corporis nemo reiciendis iusto dignissimos adipisci.</p></figcaption>
+                    </figure>
+                  </ng-template>
+                </e-carousel-item>
+        
+              </e-carousel-items>
+            </ejs-carousel>
           </div>
-        </div>
       </div>
     </div>
     <div id="Services">
@@ -243,7 +331,7 @@
     </div>
     <div class="get_in_touch">
       <p class="content">GET IN TOUCH WITH US NOW TO KNOW MORE !
-        <button (click)="openDialog('Others')" mat-button>Contacts Now</button>
+        <button class="button" (click)="openDialog('Others')" mat-button>Contacts Now</button>
         <img class="img" src="assets/SVGs/18. ThumpsUp_3D.svg" />
       </p>
     </div>
@@ -305,7 +393,7 @@
               <a class="nav-link">About Us</a>
             </li>
             <li class="nav-item" (click)="openMobileDialog('Others')">
-              <button mat-button class="contact_us">Contact Us</button>
+              <button class="button" mat-button class="contact_us">Contact Us</button>
             </li>
           </ul>
         </div>
@@ -318,7 +406,7 @@
             <p class="empower">Empowering the <span>Internet</span> generation.</p>
             <p class="desc">Klart'Digi promises you endless best in class IT Solutions. We are the first to
               revolutionize cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
-            <button mat-button>Learn More</button>
+            <button class="button" mat-button>Learn More</button>
           </div>
           <div class="col-sm-6" style="text-align: center;margin: auto;">
             <object type="image/svg+xml" data="assets/Phone/SVGs/Banner.svg" class="img"></object>
@@ -341,8 +429,8 @@
               <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings
                 light and opportunities for theatres to market and realize economies of scale through
                 strategic and systematic theatre management. Manage your theatre comfortably with us.</p>
-              <button mat-button style="margin: 10px;" (click)="visit()">Visit Site</button>
-              <button (click)="openMobileDialog('Cinibot')" mat-button class="contact" style="margin: 10px;">Contact
+              <button class="button" mat-button style="margin: 10px;" (click)="visit()">Visit Site</button>
+              <button class="button" (click)="openMobileDialog('Cinibot')" mat-button class="contact" style="margin: 10px;">Contact
                 Us</button>
             </div>
           </div>
@@ -361,7 +449,7 @@
                 <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of
                   expertise include web design and development, application development, software development,
                   ERP, mass media advertising and social media marketing. Dream it and we make it.</p>
-                <button (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
+                <button class="button" (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
               </div>
             </div>
           </div>
@@ -375,7 +463,7 @@
                 <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of
                   expertise include web design and development, application development, software development,
                   ERP, mass media advertising and social media marketing. Dream it and we make it.</p>
-                <button (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
+                <button class="button" (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
               </div>
             </div>
             <div class="col-sm-6" style="text-align: center;margin: auto;">
@@ -396,7 +484,7 @@
               <p class="desc">We resolved the biggest logistics management problem with a dedicated R&D team.
                 We make managing your company easier thanks to real-time expert reports. A pure current
                 century logistics management software. You should get the wheels to work with reals.</p>
-              <button (click)="openMobileDialog('Logistics ERP')" mat-button>Contact Us</button>
+              <button class="button" (click)="openMobileDialog('Logistics ERP')" mat-button>Contact Us</button>
             </div>
           </div>
         </div>
@@ -529,7 +617,7 @@
     </div>
     <div class="get_in_touch">
       <p class="content">GET IN TOUCH WITH US NOW TO KNOW MORE !</p>
-      <button (click)="openMobileDialog('Others')" mat-button>Contacts Now</button>
+      <button class="button" (click)="openMobileDialog('Others')" mat-button>Contacts Now</button>
       <div style="text-align: end;">
         <img class="img" src="assets/SVGs/18. ThumpsUp_3D.svg" />
       </div>

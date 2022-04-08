@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CarouselAllModule } from '@syncfusion/ej2-angular-navigations';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatMenuModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CarouselAllModule
   ],
   providers: [],
   bootstrap: [AppComponent]
