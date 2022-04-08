@@ -1,0 +1,3192 @@
+ [
+        {
+            "countryCodes": "93",
+            "flag": "https://restcountries.eu/data/afg.svg",
+            "timezones": "UTC+04:30",
+            "alpha2Code": "AF",
+            "borders": [
+                "IRN",
+                "PAK",
+                "TKM",
+                "UZB",
+                "TJK",
+                "CHN"
+            ],
+            "name": "Afghanistan",
+            "latlng": "33.0,65.0"
+        },
+        {
+            "countryCodes": "1684",
+            "flag": "https://restcountries.eu/data/asm.svg",
+            "timezones": "UTC-11:00",
+            "alpha2Code": "AS",
+            "borders": [
+                
+            ],
+            "name": "American Samoa",
+            "latlng": "-14.33333333,-170.0"
+        },
+        {
+            "countryCodes": "672",
+            "flag": "https://restcountries.eu/data/ata.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "AQ",
+            "borders": [
+                
+            ],
+            "name": "Antarctica",
+            "latlng": "-74.65,4.48"
+        },
+        {
+            "countryCodes": "297",
+            "flag": "https://restcountries.eu/data/abw.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "AW",
+            "borders": [
+                
+            ],
+            "name": "Aruba",
+            "latlng": "12.5,-69.96666666"
+        },
+        {
+            "countryCodes": "1242",
+            "flag": "https://restcountries.eu/data/bhs.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "BS",
+            "borders": [
+                
+            ],
+            "name": "Bahamas",
+            "latlng": "24.25,-76.0"
+        },
+        {
+            "countryCodes": "375",
+            "flag": "https://restcountries.eu/data/blr.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "BY",
+            "borders": [
+                "LVA",
+                "LTU",
+                "POL",
+                "RUS",
+                "UKR"
+            ],
+            "name": "Belarus",
+            "latlng": "53.0,28.0"
+        },
+        {
+            "countryCodes": "1441",
+            "flag": "https://restcountries.eu/data/bmu.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "BM",
+            "borders": [
+                
+            ],
+            "name": "Bermuda",
+            "latlng": "32.33333333,-64.75"
+        },
+        {
+            "countryCodes": "387",
+            "flag": "https://restcountries.eu/data/bih.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "BA",
+            "borders": [
+                "HRV",
+                "MNE",
+                "SRB"
+            ],
+            "name": "Bosnia and Herzegovina",
+            "latlng": "44.0,18.0"
+        },
+        {
+            "countryCodes": "246",
+            "flag": "https://restcountries.eu/data/iot.svg",
+            "timezones": "UTC+06:00",
+            "alpha2Code": "IO",
+            "borders": [
+                
+            ],
+            "name": "British Indian Ocean Territory",
+            "latlng": "-6.0,71.5"
+        },
+        {
+            "countryCodes": "673",
+            "flag": "https://restcountries.eu/data/brn.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "BN",
+            "borders": [
+                "MYS"
+            ],
+            "name": "Brunei Darussalam",
+            "latlng": "4.5,114.66666666"
+        },
+        {
+            "countryCodes": "855",
+            "flag": "https://restcountries.eu/data/khm.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "KH",
+            "borders": [
+                "LAO",
+                "THA",
+                "VNM"
+            ],
+            "name": "Cambodia",
+            "latlng": "13.0,105.0"
+        },
+        {
+            "countryCodes": "1345",
+            "flag": "https://restcountries.eu/data/cym.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "KY",
+            "borders": [
+                
+            ],
+            "name": "Cayman Islands",
+            "latlng": "19.5,-80.5"
+        },
+        {
+            "countryCodes": "86",
+            "flag": "https://restcountries.eu/data/chn.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "CN",
+            "borders": [
+                "AFG",
+                "BTN",
+                "MMR",
+                "HKG",
+                "IND",
+                "KAZ",
+                "PRK",
+                "KGZ",
+                "LAO",
+                "MAC",
+                "MNG",
+                "PAK",
+                "RUS",
+                "TJK",
+                "VNM"
+            ],
+            "name": "China",
+            "latlng": "35.0,105.0"
+        },
+        {
+            "countryCodes": "269",
+            "flag": "https://restcountries.eu/data/com.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "KM",
+            "borders": [
+                
+            ],
+            "name": "Comoros",
+            "latlng": "-12.16666666,44.25"
+        },
+        {
+            "countryCodes": "506",
+            "flag": "https://restcountries.eu/data/cri.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "CR",
+            "borders": [
+                "NIC",
+                "PAN"
+            ],
+            "name": "Costa Rica",
+            "latlng": "10.0,-84.0"
+        },
+        {
+            "countryCodes": "357",
+            "flag": "https://restcountries.eu/data/cyp.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "CY",
+            "borders": [
+                "GBR"
+            ],
+            "name": "Cyprus",
+            "latlng": "35.0,33.0"
+        },
+        {
+            "countryCodes": "1767",
+            "flag": "https://restcountries.eu/data/dma.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "DM",
+            "borders": [
+                
+            ],
+            "name": "Dominica",
+            "latlng": "15.41666666,-61.33333333"
+        },
+        {
+            "countryCodes": "503",
+            "flag": "https://restcountries.eu/data/slv.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "SV",
+            "borders": [
+                "GTM",
+                "HND"
+            ],
+            "name": "El Salvador",
+            "latlng": "13.83333333,-88.91666666"
+        },
+        {
+            "countryCodes": "251",
+            "flag": "https://restcountries.eu/data/eth.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "ET",
+            "borders": [
+                "DJI",
+                "ERI",
+                "KEN",
+                "SOM",
+                "SSD",
+                "SDN"
+            ],
+            "name": "Ethiopia",
+            "latlng": "8.0,38.0"
+        },
+        {
+            "countryCodes": "358",
+            "flag": "https://restcountries.eu/data/fin.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "FI",
+            "borders": [
+                "NOR",
+                "SWE",
+                "RUS"
+            ],
+            "name": "Finland",
+            "latlng": "64.0,26.0"
+        },
+        {
+            "countryCodes": "49",
+            "flag": "https://restcountries.eu/data/deu.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "DE",
+            "borders": [
+                "AUT",
+                "BEL",
+                "CZE",
+                "DNK",
+                "FRA",
+                "LUX",
+                "NLD",
+                "POL",
+                "CHE"
+            ],
+            "name": "Germany",
+            "latlng": "51.0,9.0"
+        },
+        {
+            "countryCodes": "299",
+            "flag": "https://restcountries.eu/data/grl.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "GL",
+            "borders": [
+                
+            ],
+            "name": "Greenland",
+            "latlng": "72.0,-40.0"
+        },
+        {
+            "countryCodes": "502",
+            "flag": "https://restcountries.eu/data/gtm.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "GT",
+            "borders": [
+                "BLZ",
+                "SLV",
+                "HND",
+                "MEX"
+            ],
+            "name": "Guatemala",
+            "latlng": "15.5,-90.25"
+        },
+        {
+            "countryCodes": "592",
+            "flag": "https://restcountries.eu/data/guy.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "GY",
+            "borders": [
+                "BRA",
+                "SUR",
+                "VEN"
+            ],
+            "name": "Guyana",
+            "latlng": "5.0,-59.0"
+        },
+        {
+            "countryCodes": "504",
+            "flag": "https://restcountries.eu/data/hnd.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "HN",
+            "borders": [
+                "GTM",
+                "SLV",
+                "NIC"
+            ],
+            "name": "Honduras",
+            "latlng": "15.0,-86.5"
+        },
+        {
+            "countryCodes": "91",
+            "flag": "https://restcountries.eu/data/ind.svg",
+            "timezones": "UTC+05:30",
+            "alpha2Code": "IN",
+            "borders": [
+                "AFG",
+                "BGD",
+                "BTN",
+                "MMR",
+                "CHN",
+                "NPL",
+                "PAK",
+                "LKA"
+            ],
+            "name": "India",
+            "latlng": "20.0,77.0"
+        },
+        {
+            "countryCodes": "964",
+            "flag": "https://restcountries.eu/data/irq.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "IQ",
+            "borders": [
+                "IRN",
+                "JOR",
+                "KWT",
+                "SAU",
+                "SYR",
+                "TUR"
+            ],
+            "name": "Iraq",
+            "latlng": "33.0,44.0"
+        },
+        {
+            "countryCodes": "39",
+            "flag": "https://restcountries.eu/data/ita.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "IT",
+            "borders": [
+                "AUT",
+                "FRA",
+                "SMR",
+                "SVN",
+                "CHE",
+                "VAT"
+            ],
+            "name": "Italy",
+            "latlng": "42.83333333,12.83333333"
+        },
+        {
+            "countryCodes": "962",
+            "flag": "https://restcountries.eu/data/jor.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "JO",
+            "borders": [
+                "IRQ",
+                "ISR",
+                "SAU",
+                "SYR"
+            ],
+            "name": "Jordan",
+            "latlng": "31.0,36.0"
+        },
+        {
+            "countryCodes": "965",
+            "flag": "https://restcountries.eu/data/kwt.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "KW",
+            "borders": [
+                "IRN",
+                "SAU"
+            ],
+            "name": "Kuwait",
+            "latlng": "29.5,45.75"
+        },
+        {
+            "countryCodes": "961",
+            "flag": "https://restcountries.eu/data/lbn.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "LB",
+            "borders": [
+                "ISR",
+                "SYR"
+            ],
+            "name": "Lebanon",
+            "latlng": "33.83333333,35.83333333"
+        },
+        {
+            "countryCodes": "423",
+            "flag": "https://restcountries.eu/data/lie.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "LI",
+            "borders": [
+                "AUT",
+                "CHE"
+            ],
+            "name": "Liechtenstein",
+            "latlng": "47.26666666,9.53333333"
+        },
+        {
+            "countryCodes": "389",
+            "flag": "https://restcountries.eu/data/mkd.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "MK",
+            "borders": [
+                "ALB",
+                "BGR",
+                "GRC",
+                "KOS",
+                "SRB"
+            ],
+            "name": "Macedonia (the former Yugoslav Republic of)",
+            "latlng": "41.83333333,22.0"
+        },
+        {
+            "countryCodes": "960",
+            "flag": "https://restcountries.eu/data/mdv.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "MV",
+            "borders": [
+                
+            ],
+            "name": "Maldives",
+            "latlng": "3.25,73.0"
+        },
+        {
+            "countryCodes": "596",
+            "flag": "https://restcountries.eu/data/mtq.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "MQ",
+            "borders": [
+                
+            ],
+            "name": "Martinique",
+            "latlng": "14.666667,-61.0"
+        },
+        {
+            "countryCodes": "52",
+            "flag": "https://restcountries.eu/data/mex.svg",
+            "timezones": "UTC-08:00",
+            "alpha2Code": "MX",
+            "borders": [
+                "BLZ",
+                "GTM",
+                "USA"
+            ],
+            "name": "Mexico",
+            "latlng": "23.0,-102.0"
+        },
+        {
+            "countryCodes": "976",
+            "flag": "https://restcountries.eu/data/mng.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "MN",
+            "borders": [
+                "CHN",
+                "RUS"
+            ],
+            "name": "Mongolia",
+            "latlng": "46.0,105.0"
+        },
+        {
+            "countryCodes": "258",
+            "flag": "https://restcountries.eu/data/moz.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "MZ",
+            "borders": [
+                "MWI",
+                "ZAF",
+                "SWZ",
+                "TZA",
+                "ZMB",
+                "ZWE"
+            ],
+            "name": "Mozambique",
+            "latlng": "-18.25,35.0"
+        },
+        {
+            "countryCodes": "977",
+            "flag": "https://restcountries.eu/data/npl.svg",
+            "timezones": "UTC+05:45",
+            "alpha2Code": "NP",
+            "borders": [
+                "CHN",
+                "IND"
+            ],
+            "name": "Nepal",
+            "latlng": "28.0,84.0"
+        },
+        {
+            "countryCodes": "505",
+            "flag": "https://restcountries.eu/data/nic.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "NI",
+            "borders": [
+                "CRI",
+                "HND"
+            ],
+            "name": "Nicaragua",
+            "latlng": "13.0,-85.0"
+        },
+        {
+            "countryCodes": "672",
+            "flag": "https://restcountries.eu/data/nfk.svg",
+            "timezones": "UTC+11:30",
+            "alpha2Code": "NF",
+            "borders": [
+                
+            ],
+            "name": "Norfolk Island",
+            "latlng": "-29.03333333,167.95"
+        },
+        {
+            "countryCodes": "968",
+            "flag": "https://restcountries.eu/data/omn.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "OM",
+            "borders": [
+                "SAU",
+                "ARE",
+                "YEM"
+            ],
+            "name": "Oman",
+            "latlng": "21.0,57.0"
+        },
+        {
+            "countryCodes": "507",
+            "flag": "https://restcountries.eu/data/pan.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "PA",
+            "borders": [
+                "COL",
+                "CRI"
+            ],
+            "name": "Panama",
+            "latlng": "9.0,-80.0"
+        },
+        {
+            "countryCodes": "63",
+            "flag": "https://restcountries.eu/data/phl.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "PH",
+            "borders": [
+                
+            ],
+            "name": "Philippines",
+            "latlng": "13.0,122.0"
+        },
+        {
+            "countryCodes": "1787",
+            "flag": "https://restcountries.eu/data/pri.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "PR",
+            "borders": [
+                
+            ],
+            "name": "Puerto Rico",
+            "latlng": "18.25,-66.5"
+        },
+        {
+            "countryCodes": "40",
+            "flag": "https://restcountries.eu/data/rou.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "RO",
+            "borders": [
+                "BGR",
+                "HUN",
+                "MDA",
+                "SRB",
+                "UKR"
+            ],
+            "name": "Romania",
+            "latlng": "46.0,25.0"
+        },
+        {
+            "countryCodes": "290",
+            "flag": "https://restcountries.eu/data/shn.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "SH",
+            "borders": [
+                
+            ],
+            "name": "Saint Helena, Ascension and Tristan da Cunha",
+            "latlng": "-15.95,-5.7"
+        },
+        {
+            "countryCodes": "508",
+            "flag": "https://restcountries.eu/data/spm.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "PM",
+            "borders": [
+                
+            ],
+            "name": "Saint Pierre and Miquelon",
+            "latlng": "46.83333333,-56.33333333"
+        },
+        {
+            "countryCodes": "239",
+            "flag": "https://restcountries.eu/data/stp.svg",
+            "timezones": "UTC",
+            "alpha2Code": "ST",
+            "borders": [
+                
+            ],
+            "name": "Sao Tome and Principe",
+            "latlng": "1.0,7.0"
+        },
+        {
+            "countryCodes": "248",
+            "flag": "https://restcountries.eu/data/syc.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "SC",
+            "borders": [
+                
+            ],
+            "name": "Seychelles",
+            "latlng": "-4.58333333,55.66666666"
+        },
+        {
+            "countryCodes": "421",
+            "flag": "https://restcountries.eu/data/svk.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "SK",
+            "borders": [
+                "AUT",
+                "CZE",
+                "HUN",
+                "POL",
+                "UKR"
+            ],
+            "name": "Slovakia",
+            "latlng": "48.66666666,19.5"
+        },
+        {
+            "countryCodes": "27",
+            "flag": "https://restcountries.eu/data/zaf.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "ZA",
+            "borders": [
+                "BWA",
+                "LSO",
+                "MOZ",
+                "NAM",
+                "SWZ",
+                "ZWE"
+            ],
+            "name": "South Africa",
+            "latlng": "-29.0,24.0"
+        },
+        {
+            "countryCodes": "34",
+            "flag": "https://restcountries.eu/data/esp.svg",
+            "timezones": "UTC",
+            "alpha2Code": "ES",
+            "borders": [
+                "AND",
+                "FRA",
+                "GIB",
+                "PRT",
+                "MAR"
+            ],
+            "name": "Spain",
+            "latlng": "40.0,-4.0"
+        },
+        {
+            "countryCodes": "4779",
+            "flag": "https://restcountries.eu/data/sjm.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "SJ",
+            "borders": [
+                
+            ],
+            "name": "Svalbard and Jan Mayen",
+            "latlng": "78.0,20.0"
+        },
+        {
+            "countryCodes": "963",
+            "flag": "https://restcountries.eu/data/syr.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "SY",
+            "borders": [
+                "IRQ",
+                "ISR",
+                "JOR",
+                "LBN",
+                "TUR"
+            ],
+            "name": "Syrian Arab Republic",
+            "latlng": "35.0,38.0"
+        },
+        {
+            "countryCodes": "66",
+            "flag": "https://restcountries.eu/data/tha.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "TH",
+            "borders": [
+                "MMR",
+                "KHM",
+                "LAO",
+                "MYS"
+            ],
+            "name": "Thailand",
+            "latlng": "15.0,100.0"
+        },
+        {
+            "countryCodes": "676",
+            "flag": "https://restcountries.eu/data/ton.svg",
+            "timezones": "UTC+13:00",
+            "alpha2Code": "TO",
+            "borders": [
+                
+            ],
+            "name": "Tonga",
+            "latlng": "-20.0,-175.0"
+        },
+        {
+            "countryCodes": "993",
+            "flag": "https://restcountries.eu/data/tkm.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "TM",
+            "borders": [
+                "AFG",
+                "IRN",
+                "KAZ",
+                "UZB"
+            ],
+            "name": "Turkmenistan",
+            "latlng": "40.0,60.0"
+        },
+        {
+            "countryCodes": "380",
+            "flag": "https://restcountries.eu/data/ukr.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "UA",
+            "borders": [
+                "BLR",
+                "HUN",
+                "MDA",
+                "POL",
+                "ROU",
+                "RUS",
+                "SVK"
+            ],
+            "name": "Ukraine",
+            "latlng": "49.0,32.0"
+        },
+        {
+            "countryCodes": "598",
+            "flag": "https://restcountries.eu/data/ury.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "UY",
+            "borders": [
+                "ARG",
+                "BRA"
+            ],
+            "name": "Uruguay",
+            "latlng": "-33.0,-56.0"
+        },
+        {
+            "countryCodes": "84",
+            "flag": "https://restcountries.eu/data/vnm.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "VN",
+            "borders": [
+                "KHM",
+                "CHN",
+                "LAO"
+            ],
+            "name": "Viet Nam",
+            "latlng": "16.16666666,107.83333333"
+        },
+        {
+            "countryCodes": "260",
+            "flag": "https://restcountries.eu/data/zmb.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "ZM",
+            "borders": [
+                "AGO",
+                "BWA",
+                "COD",
+                "MWI",
+                "MOZ",
+                "NAM",
+                "TZA",
+                "ZWE"
+            ],
+            "name": "Zambia",
+            "latlng": "-15.0,30.0"
+        },
+        {
+            "countryCodes": "358",
+            "flag": "https://restcountries.eu/data/ala.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "AX",
+            "borders": [
+                
+            ],
+            "name": "Åland Islands",
+            "latlng": "60.116667,19.9"
+        },
+        {
+            "countryCodes": "376",
+            "flag": "https://restcountries.eu/data/and.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "AD",
+            "borders": [
+                "FRA",
+                "ESP"
+            ],
+            "name": "Andorra",
+            "latlng": "42.5,1.5"
+        },
+        {
+            "countryCodes": "1268",
+            "flag": "https://restcountries.eu/data/atg.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "AG",
+            "borders": [
+                
+            ],
+            "name": "Antigua and Barbuda",
+            "latlng": "17.05,-61.8"
+        },
+        {
+            "countryCodes": "61",
+            "flag": "https://restcountries.eu/data/aus.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "AU",
+            "borders": [
+                
+            ],
+            "name": "Australia",
+            "latlng": "-27.0,133.0"
+        },
+        {
+            "countryCodes": "973",
+            "flag": "https://restcountries.eu/data/bhr.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "BH",
+            "borders": [
+                
+            ],
+            "name": "Bahrain",
+            "latlng": "26.0,50.55"
+        },
+        {
+            "countryCodes": "32",
+            "flag": "https://restcountries.eu/data/bel.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "BE",
+            "borders": [
+                "FRA",
+                "DEU",
+                "LUX",
+                "NLD"
+            ],
+            "name": "Belgium",
+            "latlng": "50.83333333,4.0"
+        },
+        {
+            "countryCodes": "975",
+            "flag": "https://restcountries.eu/data/btn.svg",
+            "timezones": "UTC+06:00",
+            "alpha2Code": "BT",
+            "borders": [
+                "CHN",
+                "IND"
+            ],
+            "name": "Bhutan",
+            "latlng": "27.5,90.5"
+        },
+        {
+            "countryCodes": "267",
+            "flag": "https://restcountries.eu/data/bwa.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "BW",
+            "borders": [
+                "NAM",
+                "ZAF",
+                "ZMB",
+                "ZWE"
+            ],
+            "name": "Botswana",
+            "latlng": "-22.0,24.0"
+        },
+        {
+            "countryCodes": "359",
+            "flag": "https://restcountries.eu/data/bgr.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "BG",
+            "borders": [
+                "GRC",
+                "MKD",
+                "ROU",
+                "SRB",
+                "TUR"
+            ],
+            "name": "Bulgaria",
+            "latlng": "43.0,25.0"
+        },
+        {
+            "countryCodes": "237",
+            "flag": "https://restcountries.eu/data/cmr.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CM",
+            "borders": [
+                "CAF",
+                "TCD",
+                "COG",
+                "GNQ",
+                "GAB",
+                "NGA"
+            ],
+            "name": "Cameroon",
+            "latlng": "6.0,12.0"
+        },
+        {
+            "countryCodes": "236",
+            "flag": "https://restcountries.eu/data/caf.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CF",
+            "borders": [
+                "CMR",
+                "TCD",
+                "COD",
+                "COG",
+                "SSD",
+                "SDN"
+            ],
+            "name": "Central African Republic",
+            "latlng": "7.0,21.0"
+        },
+        {
+            "countryCodes": "61",
+            "flag": "https://restcountries.eu/data/cxr.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "CX",
+            "borders": [
+                
+            ],
+            "name": "Christmas Island",
+            "latlng": "-10.5,105.66666666"
+        },
+        {
+            "countryCodes": "242",
+            "flag": "https://restcountries.eu/data/cog.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CG",
+            "borders": [
+                "AGO",
+                "CMR",
+                "CAF",
+                "COD",
+                "GAB"
+            ],
+            "name": "Congo",
+            "latlng": "-1.0,15.0"
+        },
+        {
+            "countryCodes": "385",
+            "flag": "https://restcountries.eu/data/hrv.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "HR",
+            "borders": [
+                "BIH",
+                "HUN",
+                "MNE",
+                "SRB",
+                "SVN"
+            ],
+            "name": "Croatia",
+            "latlng": "45.16666666,15.5"
+        },
+        {
+            "countryCodes": "420",
+            "flag": "https://restcountries.eu/data/cze.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CZ",
+            "borders": [
+                "AUT",
+                "DEU",
+                "POL",
+                "SVK"
+            ],
+            "name": "Czech Republic",
+            "latlng": "49.75,15.5"
+        },
+        {
+            "countryCodes": "1809",
+            "flag": "https://restcountries.eu/data/dom.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "DO",
+            "borders": [
+                "HTI"
+            ],
+            "name": "Dominican Republic",
+            "latlng": "19.0,-70.66666666"
+        },
+        {
+            "countryCodes": "240",
+            "flag": "https://restcountries.eu/data/gnq.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "GQ",
+            "borders": [
+                "CMR",
+                "GAB"
+            ],
+            "name": "Equatorial Guinea",
+            "latlng": "2.0,10.0"
+        },
+        {
+            "countryCodes": "500",
+            "flag": "https://restcountries.eu/data/flk.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "FK",
+            "borders": [
+                
+            ],
+            "name": "Falkland Islands (Malvinas)",
+            "latlng": "-51.75,-59.0"
+        },
+        {
+            "countryCodes": "33",
+            "flag": "https://restcountries.eu/data/fra.svg",
+            "timezones": "UTC-10:00",
+            "alpha2Code": "FR",
+            "borders": [
+                "AND",
+                "BEL",
+                "DEU",
+                "ITA",
+                "LUX",
+                "MCO",
+                "ESP",
+                "CHE"
+            ],
+            "name": "France",
+            "latlng": "46.0,2.0"
+        },
+        {
+            "countryCodes": "241",
+            "flag": "https://restcountries.eu/data/gab.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "GA",
+            "borders": [
+                "CMR",
+                "COG",
+                "GNQ"
+            ],
+            "name": "Gabon",
+            "latlng": "-1.0,11.75"
+        },
+        {
+            "countryCodes": "233",
+            "flag": "https://restcountries.eu/data/gha.svg",
+            "timezones": "UTC",
+            "alpha2Code": "GH",
+            "borders": [
+                "BFA",
+                "CIV",
+                "TGO"
+            ],
+            "name": "Ghana",
+            "latlng": "8.0,-2.0"
+        },
+        {
+            "countryCodes": "1473",
+            "flag": "https://restcountries.eu/data/grd.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "GD",
+            "borders": [
+                
+            ],
+            "name": "Grenada",
+            "latlng": "12.11666666,-61.66666666"
+        },
+        {
+            "countryCodes": "44",
+            "flag": "https://restcountries.eu/data/ggy.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "GG",
+            "borders": [
+                
+            ],
+            "name": "Guernsey",
+            "latlng": "49.46666666,-2.58333333"
+        },
+        {
+            "countryCodes": "509",
+            "flag": "https://restcountries.eu/data/hti.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "HT",
+            "borders": [
+                "DOM"
+            ],
+            "name": "Haiti",
+            "latlng": "19.0,-72.41666666"
+        },
+        {
+            "countryCodes": "852",
+            "flag": "https://restcountries.eu/data/hkg.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "HK",
+            "borders": [
+                "CHN"
+            ],
+            "name": "Hong Kong",
+            "latlng": "22.25,114.16666666"
+        },
+        {
+            "countryCodes": "62",
+            "flag": "https://restcountries.eu/data/idn.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "ID",
+            "borders": [
+                "TLS",
+                "MYS",
+                "PNG"
+            ],
+            "name": "Indonesia",
+            "latlng": "-5.0,120.0"
+        },
+        {
+            "countryCodes": "353",
+            "flag": "https://restcountries.eu/data/irl.svg",
+            "timezones": "UTC",
+            "alpha2Code": "IE",
+            "borders": [
+                "GBR"
+            ],
+            "name": "Ireland",
+            "latlng": "53.0,-8.0"
+        },
+        {
+            "countryCodes": "1876",
+            "flag": "https://restcountries.eu/data/jam.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "JM",
+            "borders": [
+                
+            ],
+            "name": "Jamaica",
+            "latlng": "18.25,-77.5"
+        },
+        {
+            "countryCodes": "76",
+            "flag": "https://restcountries.eu/data/kaz.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "KZ",
+            "borders": [
+                "CHN",
+                "KGZ",
+                "RUS",
+                "TKM",
+                "UZB"
+            ],
+            "name": "Kazakhstan",
+            "latlng": "48.0,68.0"
+        },
+        {
+            "countryCodes": "996",
+            "flag": "https://restcountries.eu/data/kgz.svg",
+            "timezones": "UTC+06:00",
+            "alpha2Code": "KG",
+            "borders": [
+                "CHN",
+                "KAZ",
+                "TJK",
+                "UZB"
+            ],
+            "name": "Kyrgyzstan",
+            "latlng": "41.0,75.0"
+        },
+        {
+            "countryCodes": "266",
+            "flag": "https://restcountries.eu/data/lso.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "LS",
+            "borders": [
+                "ZAF"
+            ],
+            "name": "Lesotho",
+            "latlng": "-29.5,28.5"
+        },
+        {
+            "countryCodes": "370",
+            "flag": "https://restcountries.eu/data/ltu.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "LT",
+            "borders": [
+                "BLR",
+                "LVA",
+                "POL",
+                "RUS"
+            ],
+            "name": "Lithuania",
+            "latlng": "56.0,24.0"
+        },
+        {
+            "countryCodes": "261",
+            "flag": "https://restcountries.eu/data/mdg.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "MG",
+            "borders": [
+                
+            ],
+            "name": "Madagascar",
+            "latlng": "-20.0,47.0"
+        },
+        {
+            "countryCodes": "223",
+            "flag": "https://restcountries.eu/data/mli.svg",
+            "timezones": "UTC",
+            "alpha2Code": "ML",
+            "borders": [
+                "DZA",
+                "BFA",
+                "GIN",
+                "CIV",
+                "MRT",
+                "NER",
+                "SEN"
+            ],
+            "name": "Mali",
+            "latlng": "17.0,-4.0"
+        },
+        {
+            "countryCodes": "222",
+            "flag": "https://restcountries.eu/data/mrt.svg",
+            "timezones": "UTC",
+            "alpha2Code": "MR",
+            "borders": [
+                "DZA",
+                "MLI",
+                "SEN",
+                "ESH"
+            ],
+            "name": "Mauritania",
+            "latlng": "20.0,-12.0"
+        },
+        {
+            "countryCodes": "691",
+            "flag": "https://restcountries.eu/data/fsm.svg",
+            "timezones": "UTC+10:00",
+            "alpha2Code": "FM",
+            "borders": [
+                
+            ],
+            "name": "Micronesia (Federated States of)",
+            "latlng": "6.91666666,158.25"
+        },
+        {
+            "countryCodes": "382",
+            "flag": "https://restcountries.eu/data/mne.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "ME",
+            "borders": [
+                "ALB",
+                "BIH",
+                "HRV",
+                "KOS",
+                "SRB"
+            ],
+            "name": "Montenegro",
+            "latlng": "42.5,19.3"
+        },
+        {
+            "countryCodes": "95",
+            "flag": "https://restcountries.eu/data/mmr.svg",
+            "timezones": "UTC+06:30",
+            "alpha2Code": "MM",
+            "borders": [
+                "BGD",
+                "CHN",
+                "IND",
+                "LAO",
+                "THA"
+            ],
+            "name": "Myanmar",
+            "latlng": "22.0,98.0"
+        },
+        {
+            "countryCodes": "31",
+            "flag": "https://restcountries.eu/data/nld.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "NL",
+            "borders": [
+                "BEL",
+                "DEU"
+            ],
+            "name": "Netherlands",
+            "latlng": "52.5,5.75"
+        },
+        {
+            "countryCodes": "227",
+            "flag": "https://restcountries.eu/data/ner.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "NE",
+            "borders": [
+                "DZA",
+                "BEN",
+                "BFA",
+                "TCD",
+                "LBY",
+                "MLI",
+                "NGA"
+            ],
+            "name": "Niger",
+            "latlng": "16.0,8.0"
+        },
+        {
+            "countryCodes": "850",
+            "flag": "https://restcountries.eu/data/prk.svg",
+            "timezones": "UTC+09:00",
+            "alpha2Code": "KP",
+            "borders": [
+                "CHN",
+                "KOR",
+                "RUS"
+            ],
+            "name": "Korea (Democratic People's Republic of)",
+            "latlng": "40.0,127.0"
+        },
+        {
+            "countryCodes": "92",
+            "flag": "https://restcountries.eu/data/pak.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "PK",
+            "borders": [
+                "AFG",
+                "CHN",
+                "IND",
+                "IRN"
+            ],
+            "name": "Pakistan",
+            "latlng": "30.0,70.0"
+        },
+        {
+            "countryCodes": "675",
+            "flag": "https://restcountries.eu/data/png.svg",
+            "timezones": "UTC+10:00",
+            "alpha2Code": "PG",
+            "borders": [
+                "IDN"
+            ],
+            "name": "Papua New Guinea",
+            "latlng": "-6.0,147.0"
+        },
+        {
+            "countryCodes": "64",
+            "flag": "https://restcountries.eu/data/pcn.svg",
+            "timezones": "UTC-08:00",
+            "alpha2Code": "PN",
+            "borders": [
+                
+            ],
+            "name": "Pitcairn",
+            "latlng": "-25.06666666,-130.1"
+        },
+        {
+            "countryCodes": "974",
+            "flag": "https://restcountries.eu/data/qat.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "QA",
+            "borders": [
+                "SAU"
+            ],
+            "name": "Qatar",
+            "latlng": "25.5,51.25"
+        },
+        {
+            "countryCodes": "7",
+            "flag": "https://restcountries.eu/data/rus.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "RU",
+            "borders": [
+                "AZE",
+                "BLR",
+                "CHN",
+                "EST",
+                "FIN",
+                "GEO",
+                "KAZ",
+                "PRK",
+                "LVA",
+                "LTU",
+                "MNG",
+                "NOR",
+                "POL",
+                "UKR"
+            ],
+            "name": "Russian Federation",
+            "latlng": "60.0,100.0"
+        },
+        {
+            "countryCodes": "1869",
+            "flag": "https://restcountries.eu/data/kna.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "KN",
+            "borders": [
+                
+            ],
+            "name": "Saint Kitts and Nevis",
+            "latlng": "17.33333333,-62.75"
+        },
+        {
+            "countryCodes": "1784",
+            "flag": "https://restcountries.eu/data/vct.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "VC",
+            "borders": [
+                
+            ],
+            "name": "Saint Vincent and the Grenadines",
+            "latlng": "13.25,-61.2"
+        },
+        {
+            "countryCodes": "966",
+            "flag": "https://restcountries.eu/data/sau.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "SA",
+            "borders": [
+                "IRQ",
+                "JOR",
+                "KWT",
+                "OMN",
+                "QAT",
+                "ARE",
+                "YEM"
+            ],
+            "name": "Saudi Arabia",
+            "latlng": "25.0,45.0"
+        },
+        {
+            "countryCodes": "232",
+            "flag": "https://restcountries.eu/data/sle.svg",
+            "timezones": "UTC",
+            "alpha2Code": "SL",
+            "borders": [
+                "GIN",
+                "LBR"
+            ],
+            "name": "Sierra Leone",
+            "latlng": "8.5,-11.5"
+        },
+        {
+            "countryCodes": "386",
+            "flag": "https://restcountries.eu/data/svn.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "SI",
+            "borders": [
+                "AUT",
+                "HRV",
+                "ITA",
+                "HUN"
+            ],
+            "name": "Slovenia",
+            "latlng": "46.11666666,14.81666666"
+        },
+        {
+            "countryCodes": "500",
+            "flag": "https://restcountries.eu/data/sgs.svg",
+            "timezones": "UTC-02:00",
+            "alpha2Code": "GS",
+            "borders": [
+                
+            ],
+            "name": "South Georgia and the South Sandwich Islands",
+            "latlng": "-54.5,-37.0"
+        },
+        {
+            "countryCodes": "94",
+            "flag": "https://restcountries.eu/data/lka.svg",
+            "timezones": "UTC+05:30",
+            "alpha2Code": "LK",
+            "borders": [
+                "IND"
+            ],
+            "name": "Sri Lanka",
+            "latlng": "7.0,81.0"
+        },
+        {
+            "countryCodes": "268",
+            "flag": "https://restcountries.eu/data/swz.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "SZ",
+            "borders": [
+                "MOZ",
+                "ZAF"
+            ],
+            "name": "Swaziland",
+            "latlng": "-26.5,31.5"
+        },
+        {
+            "countryCodes": "886",
+            "flag": "https://restcountries.eu/data/twn.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "TW",
+            "borders": [
+                
+            ],
+            "name": "Taiwan",
+            "latlng": "23.5,121.0"
+        },
+        {
+            "countryCodes": "670",
+            "flag": "https://restcountries.eu/data/tls.svg",
+            "timezones": "UTC+09:00",
+            "alpha2Code": "TL",
+            "borders": [
+                "IDN"
+            ],
+            "name": "Timor-Leste",
+            "latlng": "-8.83333333,125.91666666"
+        },
+        {
+            "countryCodes": "1868",
+            "flag": "https://restcountries.eu/data/tto.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "TT",
+            "borders": [
+                
+            ],
+            "name": "Trinidad and Tobago",
+            "latlng": "11.0,-61.0"
+        },
+        {
+            "countryCodes": "1649",
+            "flag": "https://restcountries.eu/data/tca.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "TC",
+            "borders": [
+                
+            ],
+            "name": "Turks and Caicos Islands",
+            "latlng": "21.75,-71.58333333"
+        },
+        {
+            "countryCodes": "971",
+            "flag": "https://restcountries.eu/data/are.svg",
+            "timezones": "UTC+04",
+            "alpha2Code": "AE",
+            "borders": [
+                "OMN",
+                "SAU"
+            ],
+            "name": "United Arab Emirates",
+            "latlng": "24.0,54.0"
+        },
+        {
+            "countryCodes": "998",
+            "flag": "https://restcountries.eu/data/uzb.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "UZ",
+            "borders": [
+                "AFG",
+                "KAZ",
+                "KGZ",
+                "TJK",
+                "TKM"
+            ],
+            "name": "Uzbekistan",
+            "latlng": "41.0,64.0"
+        },
+        {
+            "countryCodes": "681",
+            "flag": "https://restcountries.eu/data/wlf.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "WF",
+            "borders": [
+                
+            ],
+            "name": "Wallis and Futuna",
+            "latlng": "-13.3,-176.2"
+        },
+        {
+            "countryCodes": "263",
+            "flag": "https://restcountries.eu/data/zwe.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "ZW",
+            "borders": [
+                "BWA",
+                "MOZ",
+                "ZAF",
+                "ZMB"
+            ],
+            "name": "Zimbabwe",
+            "latlng": "-20.0,30.0"
+        },
+        {
+            "countryCodes": "355",
+            "flag": "https://restcountries.eu/data/alb.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "AL",
+            "borders": [
+                "MNE",
+                "GRC",
+                "MKD",
+                "KOS"
+            ],
+            "name": "Albania",
+            "latlng": "41.0,20.0"
+        },
+        {
+            "countryCodes": "244",
+            "flag": "https://restcountries.eu/data/ago.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "AO",
+            "borders": [
+                "COG",
+                "COD",
+                "ZMB",
+                "NAM"
+            ],
+            "name": "Angola",
+            "latlng": "-12.5,18.5"
+        },
+        {
+            "countryCodes": "54",
+            "flag": "https://restcountries.eu/data/arg.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "AR",
+            "borders": [
+                "BOL",
+                "BRA",
+                "CHL",
+                "PRY",
+                "URY"
+            ],
+            "name": "Argentina",
+            "latlng": "-34.0,-64.0"
+        },
+        {
+            "countryCodes": "43",
+            "flag": "https://restcountries.eu/data/aut.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "AT",
+            "borders": [
+                "CZE",
+                "DEU",
+                "HUN",
+                "ITA",
+                "LIE",
+                "SVK",
+                "SVN",
+                "CHE"
+            ],
+            "name": "Austria",
+            "latlng": "47.33333333,13.33333333"
+        },
+        {
+            "countryCodes": "880",
+            "flag": "https://restcountries.eu/data/bgd.svg",
+            "timezones": "UTC+06:00",
+            "alpha2Code": "BD",
+            "borders": [
+                "MMR",
+                "IND"
+            ],
+            "name": "Bangladesh",
+            "latlng": "24.0,90.0"
+        },
+        {
+            "countryCodes": "501",
+            "flag": "https://restcountries.eu/data/blz.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "BZ",
+            "borders": [
+                "GTM",
+                "MEX"
+            ],
+            "name": "Belize",
+            "latlng": "17.25,-88.75"
+        },
+        {
+            "countryCodes": "591",
+            "flag": "https://restcountries.eu/data/bol.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "BO",
+            "borders": [
+                "ARG",
+                "BRA",
+                "CHL",
+                "PRY",
+                "PER"
+            ],
+            "name": "Bolivia (Plurinational State of)",
+            "latlng": "-17.0,-65.0"
+        },
+        {
+            "countryCodes": "1284",
+            "flag": "https://restcountries.eu/data/vgb.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "VG",
+            "borders": [
+                
+            ],
+            "name": "Virgin Islands (British)",
+            "latlng": "18.431383,-64.62305"
+        },
+        {
+            "countryCodes": "226",
+            "flag": "https://restcountries.eu/data/bfa.svg",
+            "timezones": "UTC",
+            "alpha2Code": "BF",
+            "borders": [
+                "BEN",
+                "CIV",
+                "GHA",
+                "MLI",
+                "NER",
+                "TGO"
+            ],
+            "name": "Burkina Faso",
+            "latlng": "13.0,-2.0"
+        },
+        {
+            "countryCodes": "1",
+            "flag": "https://restcountries.eu/data/can.svg",
+            "timezones": "UTC-08:00",
+            "alpha2Code": "CA",
+            "borders": [
+                "USA"
+            ],
+            "name": "Canada",
+            "latlng": "60.0,-95.0"
+        },
+        {
+            "countryCodes": "235",
+            "flag": "https://restcountries.eu/data/tcd.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "TD",
+            "borders": [
+                "CMR",
+                "CAF",
+                "LBY",
+                "NER",
+                "NGA",
+                "SSD"
+            ],
+            "name": "Chad",
+            "latlng": "15.0,19.0"
+        },
+        {
+            "countryCodes": "61",
+            "flag": "https://restcountries.eu/data/cck.svg",
+            "timezones": "UTC+06:30",
+            "alpha2Code": "CC",
+            "borders": [
+                
+            ],
+            "name": "Cocos (Keeling) Islands",
+            "latlng": "-12.5,96.83333333"
+        },
+        {
+            "countryCodes": "243",
+            "flag": "https://restcountries.eu/data/cod.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CD",
+            "borders": [
+                "AGO",
+                "BDI",
+                "CAF",
+                "COG",
+                "RWA",
+                "SSD",
+                "TZA",
+                "UGA",
+                "ZMB"
+            ],
+            "name": "Congo (Democratic Republic of the)",
+            "latlng": "0.0,25.0"
+        },
+        {
+            "countryCodes": "53",
+            "flag": "https://restcountries.eu/data/cub.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "CU",
+            "borders": [
+                
+            ],
+            "name": "Cuba",
+            "latlng": "21.5,-80.0"
+        },
+        {
+            "countryCodes": "45",
+            "flag": "https://restcountries.eu/data/dnk.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "DK",
+            "borders": [
+                "DEU"
+            ],
+            "name": "Denmark",
+            "latlng": "56.0,10.0"
+        },
+        {
+            "countryCodes": "593",
+            "flag": "https://restcountries.eu/data/ecu.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "EC",
+            "borders": [
+                "COL",
+                "PER"
+            ],
+            "name": "Ecuador",
+            "latlng": "-2.0,-77.5"
+        },
+        {
+            "countryCodes": "291",
+            "flag": "https://restcountries.eu/data/eri.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "ER",
+            "borders": [
+                "DJI",
+                "ETH",
+                "SDN"
+            ],
+            "name": "Eritrea",
+            "latlng": "15.0,39.0"
+        },
+        {
+            "countryCodes": "298",
+            "flag": "https://restcountries.eu/data/fro.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "FO",
+            "borders": [
+                
+            ],
+            "name": "Faroe Islands",
+            "latlng": "62.0,-7.0"
+        },
+        {
+            "countryCodes": "594",
+            "flag": "https://restcountries.eu/data/guf.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "GF",
+            "borders": [
+                "BRA",
+                "SUR"
+            ],
+            "name": "French Guiana",
+            "latlng": "4.0,-53.0"
+        },
+        {
+            "countryCodes": "220",
+            "flag": "https://restcountries.eu/data/gmb.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "GM",
+            "borders": [
+                "SEN"
+            ],
+            "name": "Gambia",
+            "latlng": "13.46666666,-16.56666666"
+        },
+        {
+            "countryCodes": "350",
+            "flag": "https://restcountries.eu/data/gib.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "GI",
+            "borders": [
+                "ESP"
+            ],
+            "name": "Gibraltar",
+            "latlng": "36.13333333,-5.35"
+        },
+        {
+            "countryCodes": "590",
+            "flag": "https://restcountries.eu/data/glp.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "GP",
+            "borders": [
+                
+            ],
+            "name": "Guadeloupe",
+            "latlng": "16.25,-61.583333"
+        },
+        {
+            "countryCodes": "224",
+            "flag": "https://restcountries.eu/data/gin.svg",
+            "timezones": "UTC",
+            "alpha2Code": "GN",
+            "borders": [
+                "CIV",
+                "GNB",
+                "LBR",
+                "MLI",
+                "SEN",
+                "SLE"
+            ],
+            "name": "Guinea",
+            "latlng": "11.0,-10.0"
+        },
+        {
+            "countryCodes": "36",
+            "flag": "https://restcountries.eu/data/hun.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "HU",
+            "borders": [
+                "AUT",
+                "HRV",
+                "ROU",
+                "SRB",
+                "SVK",
+                "SVN",
+                "UKR"
+            ],
+            "name": "Hungary",
+            "latlng": "47.0,20.0"
+        },
+        {
+            "countryCodes": "225",
+            "flag": "https://restcountries.eu/data/civ.svg",
+            "timezones": "UTC",
+            "alpha2Code": "CI",
+            "borders": [
+                "BFA",
+                "GHA",
+                "GIN",
+                "LBR",
+                "MLI"
+            ],
+            "name": "Côte d'Ivoire",
+            "latlng": "8.0,-5.0"
+        },
+        {
+            "countryCodes": "44",
+            "flag": "https://restcountries.eu/data/imn.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "IM",
+            "borders": [
+                
+            ],
+            "name": "Isle of Man",
+            "latlng": "54.25,-4.5"
+        },
+        {
+            "countryCodes": "81",
+            "flag": "https://restcountries.eu/data/jpn.svg",
+            "timezones": "UTC+09:00",
+            "alpha2Code": "JP",
+            "borders": [
+                
+            ],
+            "name": "Japan",
+            "latlng": "36.0,138.0"
+        },
+        {
+            "countryCodes": "254",
+            "flag": "https://restcountries.eu/data/ken.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "KE",
+            "borders": [
+                "ETH",
+                "SOM",
+                "SSD",
+                "TZA",
+                "UGA"
+            ],
+            "name": "Kenya",
+            "latlng": "1.0,38.0"
+        },
+        {
+            "countryCodes": "856",
+            "flag": "https://restcountries.eu/data/lao.svg",
+            "timezones": "UTC+07:00",
+            "alpha2Code": "LA",
+            "borders": [
+                "MMR",
+                "KHM",
+                "CHN",
+                "THA",
+                "VNM"
+            ],
+            "name": "Lao People's Democratic Republic",
+            "latlng": "18.0,105.0"
+        },
+        {
+            "countryCodes": "231",
+            "flag": "https://restcountries.eu/data/lbr.svg",
+            "timezones": "UTC",
+            "alpha2Code": "LR",
+            "borders": [
+                "GIN",
+                "CIV",
+                "SLE"
+            ],
+            "name": "Liberia",
+            "latlng": "6.5,-9.5"
+        },
+        {
+            "countryCodes": "352",
+            "flag": "https://restcountries.eu/data/lux.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "LU",
+            "borders": [
+                "BEL",
+                "FRA",
+                "DEU"
+            ],
+            "name": "Luxembourg",
+            "latlng": "49.75,6.16666666"
+        },
+        {
+            "countryCodes": "265",
+            "flag": "https://restcountries.eu/data/mwi.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "MW",
+            "borders": [
+                "MOZ",
+                "TZA",
+                "ZMB"
+            ],
+            "name": "Malawi",
+            "latlng": "-13.5,34.0"
+        },
+        {
+            "countryCodes": "356",
+            "flag": "https://restcountries.eu/data/mlt.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "MT",
+            "borders": [
+                
+            ],
+            "name": "Malta",
+            "latlng": "35.83333333,14.58333333"
+        },
+        {
+            "countryCodes": "230",
+            "flag": "https://restcountries.eu/data/mus.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "MU",
+            "borders": [
+                
+            ],
+            "name": "Mauritius",
+            "latlng": "-20.28333333,57.55"
+        },
+        {
+            "countryCodes": "373",
+            "flag": "https://restcountries.eu/data/mda.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "MD",
+            "borders": [
+                "ROU",
+                "UKR"
+            ],
+            "name": "Moldova (Republic of)",
+            "latlng": "47.0,29.0"
+        },
+        {
+            "countryCodes": "1664",
+            "flag": "https://restcountries.eu/data/msr.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "MS",
+            "borders": [
+                
+            ],
+            "name": "Montserrat",
+            "latlng": "16.75,-62.2"
+        },
+        {
+            "countryCodes": "264",
+            "flag": "https://restcountries.eu/data/nam.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "NA",
+            "borders": [
+                "AGO",
+                "BWA",
+                "ZAF",
+                "ZMB"
+            ],
+            "name": "Namibia",
+            "latlng": "-22.0,17.0"
+        },
+        {
+            "countryCodes": "687",
+            "flag": "https://restcountries.eu/data/ncl.svg",
+            "timezones": "UTC+11:00",
+            "alpha2Code": "NC",
+            "borders": [
+                
+            ],
+            "name": "New Caledonia",
+            "latlng": "-21.5,165.5"
+        },
+        {
+            "countryCodes": "234",
+            "flag": "https://restcountries.eu/data/nga.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "NG",
+            "borders": [
+                "BEN",
+                "CMR",
+                "TCD",
+                "NER"
+            ],
+            "name": "Nigeria",
+            "latlng": "10.0,8.0"
+        },
+        {
+            "countryCodes": "1670",
+            "flag": "https://restcountries.eu/data/mnp.svg",
+            "timezones": "UTC+10:00",
+            "alpha2Code": "MP",
+            "borders": [
+                
+            ],
+            "name": "Northern Mariana Islands",
+            "latlng": "15.2,145.75"
+        },
+        {
+            "countryCodes": "680",
+            "flag": "https://restcountries.eu/data/plw.svg",
+            "timezones": "UTC+09:00",
+            "alpha2Code": "PW",
+            "borders": [
+                
+            ],
+            "name": "Palau",
+            "latlng": "7.5,134.5"
+        },
+        {
+            "countryCodes": "595",
+            "flag": "https://restcountries.eu/data/pry.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "PY",
+            "borders": [
+                "ARG",
+                "BOL",
+                "BRA"
+            ],
+            "name": "Paraguay",
+            "latlng": "-23.0,-58.0"
+        },
+        {
+            "countryCodes": "48",
+            "flag": "https://restcountries.eu/data/pol.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "PL",
+            "borders": [
+                "BLR",
+                "CZE",
+                "DEU",
+                "LTU",
+                "RUS",
+                "SVK",
+                "UKR"
+            ],
+            "name": "Poland",
+            "latlng": "52.0,20.0"
+        },
+        {
+            "countryCodes": "383",
+            "flag": "https://restcountries.eu/data/kos.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "XK",
+            "borders": [
+                "ALB",
+                "MKD",
+                "MNE",
+                "SRB"
+            ],
+            "name": "Republic of Kosovo",
+            "latlng": "42.666667,21.166667"
+        },
+        {
+            "countryCodes": "250",
+            "flag": "https://restcountries.eu/data/rwa.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "RW",
+            "borders": [
+                "BDI",
+                "COD",
+                "TZA",
+                "UGA"
+            ],
+            "name": "Rwanda",
+            "latlng": "-2.0,30.0"
+        },
+        {
+            "countryCodes": "1758",
+            "flag": "https://restcountries.eu/data/lca.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "LC",
+            "borders": [
+                
+            ],
+            "name": "Saint Lucia",
+            "latlng": "13.88333333,-60.96666666"
+        },
+        {
+            "countryCodes": "685",
+            "flag": "https://restcountries.eu/data/wsm.svg",
+            "timezones": "UTC+13:00",
+            "alpha2Code": "WS",
+            "borders": [
+                
+            ],
+            "name": "Samoa",
+            "latlng": "-13.58333333,-172.33333333"
+        },
+        {
+            "countryCodes": "221",
+            "flag": "https://restcountries.eu/data/sen.svg",
+            "timezones": "UTC",
+            "alpha2Code": "SN",
+            "borders": [
+                "GMB",
+                "GIN",
+                "GNB",
+                "MLI",
+                "MRT"
+            ],
+            "name": "Senegal",
+            "latlng": "14.0,-14.0"
+        },
+        {
+            "countryCodes": "65",
+            "flag": "https://restcountries.eu/data/sgp.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "SG",
+            "borders": [
+                
+            ],
+            "name": "Singapore",
+            "latlng": "1.36666666,103.8"
+        },
+        {
+            "countryCodes": "677",
+            "flag": "https://restcountries.eu/data/slb.svg",
+            "timezones": "UTC+11:00",
+            "alpha2Code": "SB",
+            "borders": [
+                
+            ],
+            "name": "Solomon Islands",
+            "latlng": "-8.0,159.0"
+        },
+        {
+            "countryCodes": "82",
+            "flag": "https://restcountries.eu/data/kor.svg",
+            "timezones": "UTC+09:00",
+            "alpha2Code": "KR",
+            "borders": [
+                "PRK"
+            ],
+            "name": "Korea (Republic of)",
+            "latlng": "37.0,127.5"
+        },
+        {
+            "countryCodes": "249",
+            "flag": "https://restcountries.eu/data/sdn.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "SD",
+            "borders": [
+                "CAF",
+                "TCD",
+                "EGY",
+                "ERI",
+                "ETH",
+                "LBY",
+                "SSD"
+            ],
+            "name": "Sudan",
+            "latlng": "15.0,30.0"
+        },
+        {
+            "countryCodes": "46",
+            "flag": "https://restcountries.eu/data/swe.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "SE",
+            "borders": [
+                "FIN",
+                "NOR"
+            ],
+            "name": "Sweden",
+            "latlng": "62.0,15.0"
+        },
+        {
+            "countryCodes": "992",
+            "flag": "https://restcountries.eu/data/tjk.svg",
+            "timezones": "UTC+05:00",
+            "alpha2Code": "TJ",
+            "borders": [
+                "AFG",
+                "CHN",
+                "KGZ",
+                "UZB"
+            ],
+            "name": "Tajikistan",
+            "latlng": "39.0,71.0"
+        },
+        {
+            "countryCodes": "228",
+            "flag": "https://restcountries.eu/data/tgo.svg",
+            "timezones": "UTC",
+            "alpha2Code": "TG",
+            "borders": [
+                "BEN",
+                "BFA",
+                "GHA"
+            ],
+            "name": "Togo",
+            "latlng": "8.0,1.16666666"
+        },
+        {
+            "countryCodes": "216",
+            "flag": "https://restcountries.eu/data/tun.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "TN",
+            "borders": [
+                "DZA",
+                "LBY"
+            ],
+            "name": "Tunisia",
+            "latlng": "34.0,9.0"
+        },
+        {
+            "countryCodes": "688",
+            "flag": "https://restcountries.eu/data/tuv.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "TV",
+            "borders": [
+                
+            ],
+            "name": "Tuvalu",
+            "latlng": "-8.0,178.0"
+        },
+        {
+            "countryCodes": "44",
+            "flag": "https://restcountries.eu/data/gbr.svg",
+            "timezones": "UTC-08:00",
+            "alpha2Code": "GB",
+            "borders": [
+                "IRL"
+            ],
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "latlng": "54.0,-2.0"
+        },
+        {
+            "countryCodes": "678",
+            "flag": "https://restcountries.eu/data/vut.svg",
+            "timezones": "UTC+11:00",
+            "alpha2Code": "VU",
+            "borders": [
+                
+            ],
+            "name": "Vanuatu",
+            "latlng": "-16.0,167.0"
+        },
+        {
+            "countryCodes": "212",
+            "flag": "https://restcountries.eu/data/esh.svg",
+            "timezones": "UTC+00:00",
+            "alpha2Code": "EH",
+            "borders": [
+                "DZA",
+                "MRT",
+                "MAR"
+            ],
+            "name": "Western Sahara",
+            "latlng": "24.5,-13.0"
+        },
+        {
+            "countryCodes": "213",
+            "flag": "https://restcountries.eu/data/dza.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "DZ",
+            "borders": [
+                "TUN",
+                "LBY",
+                "NER",
+                "ESH",
+                "MRT",
+                "MLI",
+                "MAR"
+            ],
+            "name": "Algeria",
+            "latlng": "28.0,3.0"
+        },
+        {
+            "countryCodes": "1264",
+            "flag": "https://restcountries.eu/data/aia.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "AI",
+            "borders": [
+                
+            ],
+            "name": "Anguilla",
+            "latlng": "18.25,-63.16666666"
+        },
+        {
+            "countryCodes": "374",
+            "flag": "https://restcountries.eu/data/arm.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "AM",
+            "borders": [
+                "AZE",
+                "GEO",
+                "IRN",
+                "TUR"
+            ],
+            "name": "Armenia",
+            "latlng": "40.0,45.0"
+        },
+        {
+            "countryCodes": "994",
+            "flag": "https://restcountries.eu/data/aze.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "AZ",
+            "borders": [
+                "ARM",
+                "GEO",
+                "IRN",
+                "RUS",
+                "TUR"
+            ],
+            "name": "Azerbaijan",
+            "latlng": "40.5,47.5"
+        },
+        {
+            "countryCodes": "1246",
+            "flag": "https://restcountries.eu/data/brb.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "BB",
+            "borders": [
+                
+            ],
+            "name": "Barbados",
+            "latlng": "13.16666666,-59.53333333"
+        },
+        {
+            "countryCodes": "229",
+            "flag": "https://restcountries.eu/data/ben.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "BJ",
+            "borders": [
+                "BFA",
+                "NER",
+                "NGA",
+                "TGO"
+            ],
+            "name": "Benin",
+            "latlng": "9.5,2.25"
+        },
+        {
+            "countryCodes": "5997",
+            "flag": "https://restcountries.eu/data/bes.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "BQ",
+            "borders": [
+                
+            ],
+            "name": "Bonaire, Sint Eustatius and Saba",
+            "latlng": "12.15,-68.266667"
+        },
+        {
+            "countryCodes": "55",
+            "flag": "https://restcountries.eu/data/bra.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "BR",
+            "borders": [
+                "ARG",
+                "BOL",
+                "COL",
+                "GUF",
+                "GUY",
+                "PRY",
+                "PER",
+                "SUR",
+                "URY",
+                "VEN"
+            ],
+            "name": "Brazil",
+            "latlng": "-10.0,-55.0"
+        },
+        {
+            "countryCodes": "1 340",
+            "flag": "https://restcountries.eu/data/vir.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "VI",
+            "borders": [
+                
+            ],
+            "name": "Virgin Islands (U.S.)",
+            "latlng": "18.34,-64.93"
+        },
+        {
+            "countryCodes": "257",
+            "flag": "https://restcountries.eu/data/bdi.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "BI",
+            "borders": [
+                "COD",
+                "RWA",
+                "TZA"
+            ],
+            "name": "Burundi",
+            "latlng": "-3.5,30.0"
+        },
+        {
+            "countryCodes": "238",
+            "flag": "https://restcountries.eu/data/cpv.svg",
+            "timezones": "UTC-01:00",
+            "alpha2Code": "CV",
+            "borders": [
+                
+            ],
+            "name": "Cabo Verde",
+            "latlng": "16.0,-24.0"
+        },
+        {
+            "countryCodes": "56",
+            "flag": "https://restcountries.eu/data/chl.svg",
+            "timezones": "UTC-06:00",
+            "alpha2Code": "CL",
+            "borders": [
+                "ARG",
+                "BOL",
+                "PER"
+            ],
+            "name": "Chile",
+            "latlng": "-30.0,-71.0"
+        },
+        {
+            "countryCodes": "57",
+            "flag": "https://restcountries.eu/data/col.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "CO",
+            "borders": [
+                "BRA",
+                "ECU",
+                "PAN",
+                "PER",
+                "VEN"
+            ],
+            "name": "Colombia",
+            "latlng": "4.0,-72.0"
+        },
+        {
+            "countryCodes": "682",
+            "flag": "https://restcountries.eu/data/cok.svg",
+            "timezones": "UTC-10:00",
+            "alpha2Code": "CK",
+            "borders": [
+                
+            ],
+            "name": "Cook Islands",
+            "latlng": "-21.23333333,-159.76666666"
+        },
+        {
+            "countryCodes": "599",
+            "flag": "https://restcountries.eu/data/cuw.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "CW",
+            "borders": [
+                
+            ],
+            "name": "Curaçao",
+            "latlng": "12.116667,-68.933333"
+        },
+        {
+            "countryCodes": "253",
+            "flag": "https://restcountries.eu/data/dji.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "DJ",
+            "borders": [
+                "ERI",
+                "ETH",
+                "SOM"
+            ],
+            "name": "Djibouti",
+            "latlng": "11.5,43.0"
+        },
+        {
+            "countryCodes": "20",
+            "flag": "https://restcountries.eu/data/egy.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "EG",
+            "borders": [
+                "ISR",
+                "LBY",
+                "SDN"
+            ],
+            "name": "Egypt",
+            "latlng": "27.0,30.0"
+        },
+        {
+            "countryCodes": "372",
+            "flag": "https://restcountries.eu/data/est.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "EE",
+            "borders": [
+                "LVA",
+                "RUS"
+            ],
+            "name": "Estonia",
+            "latlng": "59.0,26.0"
+        },
+        {
+            "countryCodes": "679",
+            "flag": "https://restcountries.eu/data/fji.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "FJ",
+            "borders": [
+                
+            ],
+            "name": "Fiji",
+            "latlng": "-18.0,175.0"
+        },
+        {
+            "countryCodes": "689",
+            "flag": "https://restcountries.eu/data/pyf.svg",
+            "timezones": "UTC-10:00",
+            "alpha2Code": "PF",
+            "borders": [
+                
+            ],
+            "name": "French Polynesia",
+            "latlng": "-15.0,-140.0"
+        },
+        {
+            "countryCodes": "995",
+            "flag": "https://restcountries.eu/data/geo.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "GE",
+            "borders": [
+                "ARM",
+                "AZE",
+                "RUS",
+                "TUR"
+            ],
+            "name": "Georgia",
+            "latlng": "42.0,43.5"
+        },
+        {
+            "countryCodes": "30",
+            "flag": "https://restcountries.eu/data/grc.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "GR",
+            "borders": [
+                "ALB",
+                "BGR",
+                "TUR",
+                "MKD"
+            ],
+            "name": "Greece",
+            "latlng": "39.0,22.0"
+        },
+        {
+            "countryCodes": "1671",
+            "flag": "https://restcountries.eu/data/gum.svg",
+            "timezones": "UTC+10:00",
+            "alpha2Code": "GU",
+            "borders": [
+                
+            ],
+            "name": "Guam",
+            "latlng": "13.46666666,144.78333333"
+        },
+        {
+            "countryCodes": "245",
+            "flag": "https://restcountries.eu/data/gnb.svg",
+            "timezones": "UTC",
+            "alpha2Code": "GW",
+            "borders": [
+                "GIN",
+                "SEN"
+            ],
+            "name": "Guinea-Bissau",
+            "latlng": "12.0,-15.0"
+        },
+        {
+            "countryCodes": "379",
+            "flag": "https://restcountries.eu/data/vat.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "VA",
+            "borders": [
+                "ITA"
+            ],
+            "name": "Holy See",
+            "latlng": "41.9,12.45"
+        },
+        {
+            "countryCodes": "354",
+            "flag": "https://restcountries.eu/data/isl.svg",
+            "timezones": "UTC",
+            "alpha2Code": "IS",
+            "borders": [
+                
+            ],
+            "name": "Iceland",
+            "latlng": "65.0,-18.0"
+        },
+        {
+            "countryCodes": "98",
+            "flag": "https://restcountries.eu/data/irn.svg",
+            "timezones": "UTC+03:30",
+            "alpha2Code": "IR",
+            "borders": [
+                "AFG",
+                "ARM",
+                "AZE",
+                "IRQ",
+                "PAK",
+                "TUR",
+                "TKM"
+            ],
+            "name": "Iran (Islamic Republic of)",
+            "latlng": "32.0,53.0"
+        },
+        {
+            "countryCodes": "972",
+            "flag": "https://restcountries.eu/data/isr.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "IL",
+            "borders": [
+                "EGY",
+                "JOR",
+                "LBN",
+                "SYR"
+            ],
+            "name": "Israel",
+            "latlng": "31.5,34.75"
+        },
+        {
+            "countryCodes": "44",
+            "flag": "https://restcountries.eu/data/jey.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "JE",
+            "borders": [
+                
+            ],
+            "name": "Jersey",
+            "latlng": "49.25,-2.16666666"
+        },
+        {
+            "countryCodes": "686",
+            "flag": "https://restcountries.eu/data/kir.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "KI",
+            "borders": [
+                
+            ],
+            "name": "Kiribati",
+            "latlng": "1.41666666,173.0"
+        },
+        {
+            "countryCodes": "371",
+            "flag": "https://restcountries.eu/data/lva.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "LV",
+            "borders": [
+                "BLR",
+                "EST",
+                "LTU",
+                "RUS"
+            ],
+            "name": "Latvia",
+            "latlng": "57.0,25.0"
+        },
+        {
+            "countryCodes": "218",
+            "flag": "https://restcountries.eu/data/lby.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "LY",
+            "borders": [
+                "DZA",
+                "TCD",
+                "EGY",
+                "NER",
+                "SDN",
+                "TUN"
+            ],
+            "name": "Libya",
+            "latlng": "25.0,17.0"
+        },
+        {
+            "countryCodes": "853",
+            "flag": "https://restcountries.eu/data/mac.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "MO",
+            "borders": [
+                "CHN"
+            ],
+            "name": "Macao",
+            "latlng": "22.16666666,113.55"
+        },
+        {
+            "countryCodes": "60",
+            "flag": "https://restcountries.eu/data/mys.svg",
+            "timezones": "UTC+08:00",
+            "alpha2Code": "MY",
+            "borders": [
+                "BRN",
+                "IDN",
+                "THA"
+            ],
+            "name": "Malaysia",
+            "latlng": "2.5,112.5"
+        },
+        {
+            "countryCodes": "692",
+            "flag": "https://restcountries.eu/data/mhl.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "MH",
+            "borders": [
+                
+            ],
+            "name": "Marshall Islands",
+            "latlng": "9.0,168.0"
+        },
+        {
+            "countryCodes": "262",
+            "flag": "https://restcountries.eu/data/myt.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "YT",
+            "borders": [
+                
+            ],
+            "name": "Mayotte",
+            "latlng": "-12.83333333,45.16666666"
+        },
+        {
+            "countryCodes": "377",
+            "flag": "https://restcountries.eu/data/mco.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "MC",
+            "borders": [
+                "FRA"
+            ],
+            "name": "Monaco",
+            "latlng": "43.73333333,7.4"
+        },
+        {
+            "countryCodes": "212",
+            "flag": "https://restcountries.eu/data/mar.svg",
+            "timezones": "UTC",
+            "alpha2Code": "MA",
+            "borders": [
+                "DZA",
+                "ESH",
+                "ESP"
+            ],
+            "name": "Morocco",
+            "latlng": "32.0,-5.0"
+        },
+        {
+            "countryCodes": "674",
+            "flag": "https://restcountries.eu/data/nru.svg",
+            "timezones": "UTC+12:00",
+            "alpha2Code": "NR",
+            "borders": [
+                
+            ],
+            "name": "Nauru",
+            "latlng": "-0.53333333,166.91666666"
+        },
+        {
+            "countryCodes": "64",
+            "flag": "https://restcountries.eu/data/nzl.svg",
+            "timezones": "UTC-11:00",
+            "alpha2Code": "NZ",
+            "borders": [
+                
+            ],
+            "name": "New Zealand",
+            "latlng": "-41.0,174.0"
+        },
+        {
+            "countryCodes": "683",
+            "flag": "https://restcountries.eu/data/niu.svg",
+            "timezones": "UTC-11:00",
+            "alpha2Code": "NU",
+            "borders": [
+                
+            ],
+            "name": "Niue",
+            "latlng": "-19.03333333,-169.86666666"
+        },
+        {
+            "countryCodes": "47",
+            "flag": "https://restcountries.eu/data/nor.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "NO",
+            "borders": [
+                "FIN",
+                "SWE",
+                "RUS"
+            ],
+            "name": "Norway",
+            "latlng": "62.0,10.0"
+        },
+        {
+            "countryCodes": "970",
+            "flag": "https://restcountries.eu/data/pse.svg",
+            "timezones": "UTC+02:00",
+            "alpha2Code": "PS",
+            "borders": [
+                "ISR",
+                "EGY",
+                "JOR"
+            ],
+            "name": "Palestine, State of",
+            "latlng": "31.9,35.2"
+        },
+        {
+            "countryCodes": "51",
+            "flag": "https://restcountries.eu/data/per.svg",
+            "timezones": "UTC-05:00",
+            "alpha2Code": "PE",
+            "borders": [
+                "BOL",
+                "BRA",
+                "CHL",
+                "COL",
+                "ECU"
+            ],
+            "name": "Peru",
+            "latlng": "-10.0,-76.0"
+        },
+        {
+            "countryCodes": "351",
+            "flag": "https://restcountries.eu/data/prt.svg",
+            "timezones": "UTC-01:00",
+            "alpha2Code": "PT",
+            "borders": [
+                "ESP"
+            ],
+            "name": "Portugal",
+            "latlng": "39.5,-8.0"
+        },
+        {
+            "countryCodes": "262",
+            "flag": "https://restcountries.eu/data/reu.svg",
+            "timezones": "UTC+04:00",
+            "alpha2Code": "RE",
+            "borders": [
+                
+            ],
+            "name": "Réunion",
+            "latlng": "-21.15,55.5"
+        },
+        {
+            "countryCodes": "590",
+            "flag": "https://restcountries.eu/data/blm.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "BL",
+            "borders": [
+                
+            ],
+            "name": "Saint Barthélemy",
+            "latlng": "18.5,-63.41666666"
+        },
+        {
+            "countryCodes": "590",
+            "flag": "https://restcountries.eu/data/maf.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "MF",
+            "borders": [
+                "SXM",
+                "NLD"
+            ],
+            "name": "Saint Martin (French part)",
+            "latlng": "18.08333333,-63.95"
+        },
+        {
+            "countryCodes": "378",
+            "flag": "https://restcountries.eu/data/smr.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "SM",
+            "borders": [
+                "ITA"
+            ],
+            "name": "San Marino",
+            "latlng": "43.76666666,12.41666666"
+        },
+        {
+            "countryCodes": "381",
+            "flag": "https://restcountries.eu/data/srb.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "RS",
+            "borders": [
+                "BIH",
+                "BGR",
+                "HRV",
+                "HUN",
+                "KOS",
+                "MKD",
+                "MNE",
+                "ROU"
+            ],
+            "name": "Serbia",
+            "latlng": "44.0,21.0"
+        },
+        {
+            "countryCodes": "1721",
+            "flag": "https://restcountries.eu/data/sxm.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "SX",
+            "borders": [
+                "MAF"
+            ],
+            "name": "Sint Maarten (Dutch part)",
+            "latlng": "18.033333,-63.05"
+        },
+        {
+            "countryCodes": "252",
+            "flag": "https://restcountries.eu/data/som.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "SO",
+            "borders": [
+                "DJI",
+                "ETH",
+                "KEN"
+            ],
+            "name": "Somalia",
+            "latlng": "10.0,49.0"
+        },
+        {
+            "countryCodes": "211",
+            "flag": "https://restcountries.eu/data/ssd.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "SS",
+            "borders": [
+                "CAF",
+                "COD",
+                "ETH",
+                "KEN",
+                "SDN",
+                "UGA"
+            ],
+            "name": "South Sudan",
+            "latlng": "7.0,30.0"
+        },
+        {
+            "countryCodes": "597",
+            "flag": "https://restcountries.eu/data/sur.svg",
+            "timezones": "UTC-03:00",
+            "alpha2Code": "SR",
+            "borders": [
+                "BRA",
+                "GUF",
+                "FRA",
+                "GUY"
+            ],
+            "name": "Suriname",
+            "latlng": "4.0,-56.0"
+        },
+        {
+            "countryCodes": "41",
+            "flag": "https://restcountries.eu/data/che.svg",
+            "timezones": "UTC+01:00",
+            "alpha2Code": "CH",
+            "borders": [
+                "AUT",
+                "FRA",
+                "ITA",
+                "LIE",
+                "DEU"
+            ],
+            "name": "Switzerland",
+            "latlng": "47.0,8.0"
+        },
+        {
+            "countryCodes": "255",
+            "flag": "https://restcountries.eu/data/tza.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "TZ",
+            "borders": [
+                "BDI",
+                "COD",
+                "KEN",
+                "MWI",
+                "MOZ",
+                "RWA",
+                "UGA",
+                "ZMB"
+            ],
+            "name": "Tanzania, United Republic of",
+            "latlng": "-6.0,35.0"
+        },
+        {
+            "countryCodes": "690",
+            "flag": "https://restcountries.eu/data/tkl.svg",
+            "timezones": "UTC+13:00",
+            "alpha2Code": "TK",
+            "borders": [
+                
+            ],
+            "name": "Tokelau",
+            "latlng": "-9.0,-172.0"
+        },
+        {
+            "countryCodes": "90",
+            "flag": "https://restcountries.eu/data/tur.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "TR",
+            "borders": [
+                "ARM",
+                "AZE",
+                "BGR",
+                "GEO",
+                "GRC",
+                "IRN",
+                "IRQ",
+                "SYR"
+            ],
+            "name": "Turkey",
+            "latlng": "39.0,35.0"
+        },
+        {
+            "countryCodes": "256",
+            "flag": "https://restcountries.eu/data/uga.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "UG",
+            "borders": [
+                "COD",
+                "KEN",
+                "RWA",
+                "SSD",
+                "TZA"
+            ],
+            "name": "Uganda",
+            "latlng": "1.0,32.0"
+        },
+        {
+            "countryCodes": "1",
+            "flag": "https://restcountries.eu/data/usa.svg",
+            "timezones": "UTC-12:00",
+            "alpha2Code": "US",
+            "borders": [
+                "CAN",
+                "MEX"
+            ],
+            "name": "United States of America",
+            "latlng": "38.0,-97.0"
+        },
+        {
+            "countryCodes": "58",
+            "flag": "https://restcountries.eu/data/ven.svg",
+            "timezones": "UTC-04:00",
+            "alpha2Code": "VE",
+            "borders": [
+                "BRA",
+                "COL",
+                "GUY"
+            ],
+            "name": "Venezuela (Bolivarian Republic of)",
+            "latlng": "8.0,-66.0"
+        },
+        {
+            "countryCodes": "967",
+            "flag": "https://restcountries.eu/data/yem.svg",
+            "timezones": "UTC+03:00",
+            "alpha2Code": "YE",
+            "borders": [
+                "OMN",
+                "SAU"
+            ],
+            "name": "Yemen",
+            "latlng": "15.0,48.0"
+        }
+    ]

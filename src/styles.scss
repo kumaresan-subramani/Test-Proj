@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif) !important;
+  // font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-typography {
+  font-family: var(--bs-font-sans-serif) !important;
+  letter-spacing: normal;
+}
+
+.custom-dialog-container .mat-dialog-container {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+  border: solid 2px white;
+  background: #181637;
+}
+
+.custom-dialog-container-mobile .mat-dialog-container {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #181637;
+}
+
+.cdk-overlay-pane {
+  max-width: 100% !important;
+}
+
+.custom-dialog-container-mobile .mat-dialog-container::-webkit-scrollbar {
+  display: none !important;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none !important;
+}
+
+.animate-zoom {
+  animation: animateZoom 1s;
+}
+
+@keyframes animateZoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,857 @@
+<div id="web">
+  <div class="top">
+    <div class="container container1">
+      <!-- <div class="row">
+        <div class="col-sm-6">
+          <img (click)="refreshPage()" class="logo" src="assets/SVGs/LOGOTOP.svg" />
+        </div>
+        <div class="col-sm-6">
+          <button mat-button [ngClass]="isMenu=='Home'?'select_menu':'unselect_menu'"
+            (click)="selectTitle('Home')">Home</button>
+          <button mat-button [matMenuTriggerFor]="Products" #menuTrigger="matMenuTrigger"
+            (mouseover)="menuTrigger.openMenu()"
+            [ngClass]="isMenu=='Products'?'select_menu':'unselect_menu'">Products</button>
+          <mat-menu #Products="matMenu" [overlapTrigger]="false" yPosition="below" [overlapTrigger]="false">
+            <span (mouseleave)="menuTrigger.closeMenu()">
+              <button class="sub_menu" mat-menu-item (click)="selectTitle('Cinibot')">CINIBOT</button>
+              <button class="sub_menu" mat-menu-item (click)="selectTitle('ItSolutions')">IT SOLUTIONS</button>
+              <button class="sub_menu" mat-menu-item (click)="selectTitle('LogisticsERP')">LOGISTICS ERP</button>
+            </span>
+          </mat-menu>
+          <button mat-button [ngClass]="isMenu=='Services'?'select_menu':'unselect_menu'"
+            (click)="selectTitle('Services')">Services</button>
+          <button mat-button [ngClass]="isMenu=='About Us'?'select_menu':'unselect_menu'"
+            (click)="selectTitle('About Us')">About Us</button>
+
+          <button (click)="openDialog('Others')" mat-button class="contact_us">Contact Us</button>
+        </div>
+      </div> -->
+    </div>
+    <div id="Home">
+      <div class="container2">
+        <div class="social_media">
+          <img (click)="openSite('https://www.facebook.com/KlartDigi/')" class="icon mouse"
+            src="assets/PNGs/aboutus.png" />
+          <img (click)="openSite('https://www.instagram.com/klartdigi/')" class="icon mouse"
+            src="assets/PNGs/services.png" />
+          <img (click)="openSite('https://www.linkedin.com/company/klart-digi/')" class="icon mouse"
+            src="assets/PNGs/how.png" />
+          <!-- <img (click)="openSite('https://twitter.com/KlartDigi')" class="icon mouse twitter"
+            src="assets/SVGs/twitter.svg" />
+          <div></div> -->
+        </div>
+        <div>
+          <div>
+            <p class="empower">Empowering the <span>Internet</span> generation.</p>
+            <p class="desc">Klart'Digi promises you endless best in class IT Solutions. We are the first to
+              revolutionize cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
+            <button mat-button>Learn More</button>
+          </div>
+          <div>
+            <img class="img" src="assets/SVGs/renault.svg" />
+          </div>
+        </div>
+      </div>
+      <!-- <div (click)="parallaxScroll()" style="text-align: center;margin-top: -80px;">
+        <img class="mouse" src="assets/SVGs/Vector.svg" />
+      </div> -->
+    </div>
+  </div>
+  <div class="middle">
+    <div id="Products">
+      <div class="container3" id="Cinibot">
+        <div>
+          <div>
+            <img class="img" src="assets/PNGs/Cinibot_Illustration.png" />
+          </div>
+          <div>
+            <div class="box">
+              <p class="title">Who We Are !
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+              </p>
+              <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings light
+                and opportunities for theatres to market and realize economies of scale through strategic
+                and systematic theatre management. Manage your theatre comfortably with us.</p>
+              <button mat-button (click)="visit()">Visit Site</button>
+              <button (click)="openDialog('Cinibot')" mat-button class="contact">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container4" id="ItSolutions">
+        <div>
+          <div>
+            <div class="box">
+              <p class="title">IT SOLUTIONS
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+              </p>
+              <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of expertise
+                include web design and development, application development, software development, ERP,
+                mass media advertising and social media marketing. Dream it and we make it.</p>
+              <button (click)="openDialog('IT Solutions')" mat-button>Contact Us</button>
+            </div>
+          </div>
+          <div>
+            <img class="img" src="assets/SVGs/03. ITSolutions_Illustration.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="container5" id="LogisticsERP">
+        <div>
+          <div>
+            <img class="img" src="assets/SVGs/04. Logistics_Illustration.svg" />
+          </div>
+          <div class="box">
+            <p class="title">LOGISTICS ERP
+              <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+            </p>
+            <p class="desc">We resolved the biggest logistics management problem with a dedicated R&D team.
+              We make managing your company easier thanks to real-time expert reports. A pure current century
+              logistics management software. You should get the wheels to work with reals.</p>
+            <button (click)="openDialog('Logistics ERP')" mat-button>Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Services">
+      <div class="service_section">
+        <div class="services">
+          <p class="header">OUR SERVICES
+            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+            <img class="settings" src="assets/SVGs/settings.svg" />
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/05. WebDesignIcon.svg" />
+                  <p class="service_title">Web Design</p>
+                  <p class="service_desc">Are you in search of the best web design company?.
+                    Klart'Digi has an acknowledged presence in web designing and website development.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/06. ERPICON.svg" />
+                  <p class="service_title">ERP System</p>
+                  <p class="service_desc">The Enterprise Resource Planning (ERP) software is a software platform
+                    that combines multiple types of enterprise-critical software in a single interface.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/07. DigitalSign_Icon.svg" />
+                  <p class="service_title">Digital Signature</p>
+                  <p class="service_desc">Real-time solution to let go of, your distance and save time
+                    by signing your document online. Sign it and go ahead without any delay.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/08. SMM_Icon.svg" />
+                  <p class="service_title">Social Media Marketing</p>
+                  <p class="service_desc">Our social media marketing service will ensure your business is well
+                    positioned across all social media platforms, leading to increased visibility and sales.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/09. MobileApp_Icon.svg" />
+                  <p class="service_title">Mobile Applications</p>
+                  <p class="service_desc">We develop bespoke Android and IOS applications for all your
+                    business requirements that makes you unique and competitive.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/10. CiniBot_Icon.svg" />
+                  <p class="service_title">Cinibot (TMS)</p>
+                  <p class="service_desc">A smart theatre management system with infinite possibilities for theatre
+                    growth and spectator comfort. A smart system, for smart movie theatre of intelligent business
+                    owners.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/11. MMA_Icon.svg" />
+                  <p class="service_title">Mass Media Advertisement</p>
+                  <p class="service_desc">We make high quality, innovative digital video for your
+                    product and business for mass media advertising. We have a committed team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="why_choose_us">
+      <p class="why">WHY CHOOSE US?
+        <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+      </p>
+      <img class="why_us_img" src="assets/PNGs/WHY US.png" />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1">
+          </div>
+          <div class="col-sm-2">
+            <img class="choose_icon" src="assets/SVGs/12. quality.svg" />
+            <p class="text">Quality Work</p>
+          </div>
+          <div class="col-sm-2">
+            <img class="choose_icon" src="assets/SVGs/13. Timely_Delivery.svg" />
+            <p class="text">Timely Delivery</p>
+          </div>
+          <div class="col-sm-2">
+            <img class="choose_icon" src="assets/SVGs/14. 24Hours Supp.svg" />
+            <p class="text">24 Hours Support</p>
+          </div>
+          <div class="col-sm-2">
+            <img class="choose_icon" src="assets/SVGs/15. optimizeWork.svg" />
+            <p class="text">Optimize Your Work</p>
+          </div>
+          <div class="col-sm-2">
+            <img class="choose_icon" src="assets/SVGs/16. LowPrice.svg" />
+            <p class="text">Low Prices</p>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </div>
+    <div id="About Us">
+      <div class="about_us">
+        <div>
+          <div>
+            <div class="box">
+              <p class="title">ABOUT US
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+              </p>
+              <p class="desc">The shifting paradigms of today’s corporate world demand that businesses
+                reinvent themselves technologically and Strategically. The success story of any
+                entrepreneur depends on his service provider. Klart'Digi delivers client-focused, multi-disciplinary
+                solutions to complex challenges and opportunities to achieve tangible and sustainable
+                enterprise value through disciplined execution of tailored business strategies. We are
+                the first to revolutionize cinematographic theatre thanks to our cutting-edge methodology
+                through CiniBot. A new way to experience your cinema time and an incredible way for
+                theater's to manage their operations and fill the chairs.</p>
+            </div>
+          </div>
+          <div>
+            <img class="img" src="assets/SVGs/17. AboutUs_3d.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="get_in_touch">
+      <p class="content">GET IN TOUCH WITH US NOW TO KNOW MORE !
+        <button (click)="openDialog('Others')" mat-button>Contacts Now</button>
+        <img class="img" src="assets/SVGs/18. ThumpsUp_3D.svg" />
+      </p>
+    </div>
+    <div class="footer">
+      <img (click)="refreshPage()" class="img logo" src="assets/SVGs/LOGObot.svg" />
+      <div>
+        <img (click)="openSite('https://www.facebook.com/KlartDigi/')" class="icon mouse"
+          src="assets/PNGs/facebook.png" />
+        <img (click)="openSite('https://www.instagram.com/klartdigi/')" class="icon mouse"
+          src="assets/PNGs/intsa.png" />
+        <img (click)="openSite('https://www.linkedin.com/company/klart-digi/')" class="icon mouse"
+          src="assets/PNGs/LINKDN.png" />
+        <img (click)="openSite('https://twitter.com/KlartDigi')" class="icon mouse" src="assets/SVGs/twitter.svg" />
+      </div>
+      <div class="links">
+        <p (click)="selectTitle('Home')">Home</p>
+        <p (click)="selectTitle('Products')">Products</p>
+        <p (click)="selectTitle('Services')">Services</p>
+        <p (click)="selectTitle('About Us')">About Us</p>
+      </div>
+      <p class="copyrights">Copyrights @ 2021. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+<div class="scrollbutton mouse" *ngIf="isShow" (click)="gotoTop()">
+  <mat-icon style="color: white;zoom: 1.3;">arrow_upward</mat-icon>
+</div>
+
+<div id="mobile">
+  <div class="top">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img (click)="refreshPage()" class="img logo" src="assets/Phone/SVGs/Logo Top.svg" />
+        </a>
+        <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img class="img" src="assets/Phone/SVGs/Hamburger Menu.svg" />
+        </div>
+        <div class="collapse navbar-collapse" style="margin:0px 20px;" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" (click)="selectMobileMenu('Home')">
+              <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Products</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" (click)="selectMobileMenu('CiniBot')">CiniBot</a></li>
+                <li><a class="dropdown-item" (click)="selectMobileMenu('ItSolutions')" href="#">IT Solutions</a></li>
+                <li><a class="dropdown-item" (click)="selectMobileMenu('LogisticsERP')">Logistics ERP</a></li>
+              </ul>
+            </li>
+            <li class="nav-item" (click)="selectMobileMenu('Services')">
+              <a class="nav-link">Services</a>
+            </li>
+            <li class="nav-item" (click)="selectMobileMenu('About Us')" style="margin-right: 15px;">
+              <a class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item" (click)="openMobileDialog('Others')">
+              <button mat-button class="contact_us">Contact Us</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="Home_mob">
+      <div class="container2" style="padding-bottom: 20px;">
+        <div class="row">
+          <div class="col-sm-6" style="margin: auto;">
+            <p class="empower">Empowering the <span>Internet</span> generation.</p>
+            <p class="desc">Klart'Digi promises you endless best in class IT Solutions. We are the first to
+              revolutionize cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
+            <button mat-button>Learn More</button>
+          </div>
+          <div class="col-sm-6" style="text-align: center;margin: auto;">
+            <object type="image/svg+xml" data="assets/Phone/SVGs/Banner.svg" class="img"></object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="middle">
+    <div id="Products_mob">
+      <div class="container3" id="CiniBot_mob">
+        <div class="row">
+          <div class="col-sm-6" style="text-align: center;margin: auto;">
+            <object type="image/svg+xml" data="assets/Phone/SVGs/CINIBOT.svg" class="img"></object>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              <p class="title">CINIBOT</p>
+              <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+              <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings
+                light and opportunities for theatres to market and realize economies of scale through
+                strategic and systematic theatre management. Manage your theatre comfortably with us.</p>
+              <button mat-button style="margin: 10px;" (click)="visit()">Visit Site</button>
+              <button (click)="openMobileDialog('Cinibot')" mat-button class="contact" style="margin: 10px;">Contact
+                Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ItSolutions_mob">
+        <div class="container4" id="non_tab">
+          <div class="row">
+            <div class="col-sm-6" style="text-align: center;margin: auto;">
+              <object type="image/svg+xml" data="assets/Phone/SVGs/IT SOLUTIONS.svg" class="img"></object>
+            </div>
+            <div class="col-sm-6">
+              <div class="box">
+                <p class="title">IT SOLUTIONS</p>
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of
+                  expertise include web design and development, application development, software development,
+                  ERP, mass media advertising and social media marketing. Dream it and we make it.</p>
+                <button (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container4" id="tab">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="box">
+                <p class="title">IT SOLUTIONS</p>
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of
+                  expertise include web design and development, application development, software development,
+                  ERP, mass media advertising and social media marketing. Dream it and we make it.</p>
+                <button (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
+              </div>
+            </div>
+            <div class="col-sm-6" style="text-align: center;margin: auto;">
+              <object type="image/svg+xml" data="assets/Phone/SVGs/IT SOLUTIONS.svg" class="img"></object>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container5" id="LogisticsERP_mob">
+        <div class="row">
+          <div class="col-sm-6" style="text-align: center;margin: auto;">
+            <object type="image/svg+xml" data="assets/Phone/SVGs/LogisticsERP.svg" class="img"></object>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              <p class="title">LOGISTICS ERP</p>
+              <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+              <p class="desc">We resolved the biggest logistics management problem with a dedicated R&D team.
+                We make managing your company easier thanks to real-time expert reports. A pure current
+                century logistics management software. You should get the wheels to work with reals.</p>
+              <button (click)="openMobileDialog('Logistics ERP')" mat-button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Services_mob">
+      <div class="service_section">
+        <div class="services">
+          <p class="header">OUR SERVICES
+            <img class="settings" src="assets/SVGs/settings.svg" />
+          </p>
+          <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+          <div class="container">
+            <div class="row" style="text-align: center;">
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/05. WebDesignIcon.svg" />
+                  <p class="service_title">Web Design</p>
+                  <p class="service_desc">Are you in search of the best web design company?.
+                    Klart'Digi has an acknowledged presence in web designing and website development.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/06. ERPICON.svg" />
+                  <p class="service_title">ERP System</p>
+                  <p class="service_desc">The Enterprise Resource Planning (ERP) software is a software platform
+                    that combines multiple types of enterprise-critical software in a single interface.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/07. DigitalSign_Icon.svg" />
+                  <p class="service_title">Digital Signature</p>
+                  <p class="service_desc">Real-time solution to let go of, your distance and save time
+                    by signing your document online. Sign it and go ahead without any delay.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/08. SMM_Icon.svg" />
+                  <p class="service_title">Social Media Marketing</p>
+                  <p class="service_desc">Our social media marketing service will ensure your business is well
+                    positioned across all social media platforms, leading to increased visibility and sales.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/09. MobileApp_Icon.svg" />
+                  <p class="service_title">Mobile Applications</p>
+                  <p class="service_desc">We develop bespoke Android and IOS applications for all your
+                    business requirements that makes you unique and competitive.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/10. CiniBot_Icon.svg" />
+                  <p class="service_title">Cinibot (TMS)</p>
+                  <p class="service_desc">A smart theatre management system with infinite possibilities for
+                    theatre growth and spectator comfort. A smart system, for smart movie theatre of
+                    intelligent business owners.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="section">
+                  <img class="service_icon" src="assets/SVGs/11. MMA_Icon.svg" />
+                  <p class="service_title">Mass Media Advertisement</p>
+                  <p class="service_desc">We make high quality, innovative digital video for your
+                    product and business for mass media advertising. We have a committed team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="why_choose_us">
+      <p class="why">WHY CHOOSE US?</p>
+      <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="choose_icon" src="assets/SVGs/12. quality.svg" />
+            <p class="text">Quality Work</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="choose_icon" src="assets/SVGs/13. Timely_Delivery.svg" />
+            <p class="text">Timely Delivery</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="choose_icon" src="assets/SVGs/14. 24Hours Supp.svg" />
+            <p class="text">24 Hours Support</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="choose_icon" src="assets/SVGs/15. optimizeWork.svg" />
+            <p class="text">Optimize Your Work</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="choose_icon" src="assets/SVGs/16. LowPrice.svg" />
+            <p class="text">Low Prices</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="About Us_mob">
+      <div class="about_us">
+        <div class="container" style="min-width: 100%;">
+          <div class="row">
+            <div class="col-sm-6" style="text-align: center;margin: auto;">
+              <img class="img" src="assets/Phone/SVGs/AboutUs_3D.svg" />
+            </div>
+            <div class="col-sm-6" style="margin: auto;">
+              <div class="box">
+                <p class="title">ABOUT US
+                </p>
+                <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                <p class="desc">The shifting paradigms of today’s corporate world demand that businesses
+                  reinvent themselves technologically and Strategically. The success story of any
+                  entrepreneur depends on his service provider. Klart'Digi delivers client-focused,
+                  multi-disciplinary solutions to complex challenges and opportunities to achieve tangible
+                  and sustainable enterprise value through disciplined execution of tailored business strategies.
+                  We are the first to revolutionize cinematographic theatre thanks to our cutting-edge
+                  methodology through CiniBot. A new way to experience your cinema time and an incredible way for
+                  theater's to manage their operations and fill the chairs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="get_in_touch">
+      <p class="content">GET IN TOUCH WITH US NOW TO KNOW MORE !</p>
+      <button (click)="openMobileDialog('Others')" mat-button>Contacts Now</button>
+      <div style="text-align: end;">
+        <img class="img" src="assets/SVGs/18. ThumpsUp_3D.svg" />
+      </div>
+    </div>
+    <div class="footer">
+      <img (click)="refreshPage()" class="img logo" src="assets/Phone/SVGs/Logo Top.svg" />
+      <div>
+        <img (click)="openSite('https://www.facebook.com/KlartDigi/')" class="icon mouse"
+          src="assets/PNGs/facebook.png" />
+        <img (click)="openSite('https://www.instagram.com/klartdigi/')" class="icon mouse"
+          src="assets/PNGs/intsa.png" />
+        <img (click)="openSite('https://www.linkedin.com/company/klart-digi/')" class="icon mouse"
+          src="assets/PNGs/LINKDN.png" />
+        <img (click)="openSite('https://twitter.com/KlartDigi')" class="icon mouse" src="assets/SVGs/twitter.svg" />
+      </div>
+      <div class="links">
+        <p (click)="selectMobileMenu('Home')">Home</p>
+        <p (click)="selectMobileMenu('Products')">Products</p>
+        <p (click)="selectMobileMenu('Services')">Services</p>
+        <p (click)="selectMobileMenu('About Us')">About Us</p>
+      </div>
+      <p class="copyrights">Copyrights@2021. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Back Up Mobile Mode -->
+<!-- <div id="mobile">
+
+    <div class="top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img" src="assets/Phone/PNGs/Logo Top.png" />
+                </a>
+                <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="img" src="assets/Phone/SVGs/Hamburger Menu.svg" />
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li *ngFor="let menu of menuList;let i=index;" (click)="selectMobMenu(i)">
+                            <a class="nav-link">{{menu.menu}}</a>
+                        </li>
+                        <li class="nav-item" (click)="openMobileDialog('Others')">
+                            <a class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="Home_mob">
+            <div class="container2">
+                <div>
+                    <div>
+                        <p class="empower">Empowering the
+                            <span>Internet</span> generation.
+                        </p>
+                        <p class="desc">Klart'Digi promises you endless best in class IT Solutions. We are the first to
+                            revolutionize
+                            cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
+                        <button mat-button>Learn More</button>
+                    </div>
+                    <div style="text-align: center;">
+                        <object type="image/svg+xml" data="assets/Phone/SVGs/Banner.svg" class="img"></object>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div id="Products_mob">
+            <div class="container3">
+                <div>
+                    <div style="text-align: center;">
+                        <object type="image/svg+xml" data="assets/Phone/SVGs/CINIBOT.svg" class="img"></object>
+                    </div>
+                    <div>
+                        <div class="box">
+                            <p class="title">CINIBOT
+                            </p>
+                            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                            <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings
+                                light
+                                and
+                                opportunities for theatres to market and realize economies of scale through
+                                strategic
+                                and
+                                systematic
+                                theatre management. Manage your theatre comfortably with us.</p>
+                            <button mat-button>Visit Site</button>
+                            <button (click)="openMobileDialog('Cinibot')" mat-button class="contact">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container4">
+                <div>
+                    <div style="text-align: center;">
+                        <object type="image/svg+xml" data="assets/Phone/SVGs/IT SOLUTIONS.svg" class="img"></object>
+                    </div>
+                    <div>
+                        <div class="box">
+                            <p class="title">IT SOLUTIONS
+                            </p>
+                            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                            <p class="desc">Next-Gen developers with expertise in all IT solutions. Our fields of
+                                expertise
+                                include web design and development, application development, software development,
+                                ERP,
+                                mass
+                                media advertising and social media marketing. Dream it and we make it.</p>
+                            <button (click)="openMobileDialog('IT Solutions')" mat-button>Contact Us</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container5">
+                <div>
+                    <div style="text-align: center;">
+                        <object type="image/svg+xml" data="assets/Phone/SVGs/LogisticsERP.svg" class="img"></object>
+                    </div>
+                    <div class="box">
+                        <p class="title">
+                            LOGISTICS ERP
+                        </p>
+                        <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                        <p class="desc">We resolved the biggest logistics management problem with a dedicated R&D
+                            team.
+                            We
+                            make managing your company easier thanks to real-time expert reports. A pure current
+                            century
+                            logistics management software. You should get the wheels to work with reals.</p>
+                        <button (click)="openMobileDialog('Logistics ERP')" mat-button>Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Services_mob">
+            <div class="service_section">
+                <div class="services">
+                    <p class="header">OUR SERVICES
+                        <img class="settings" src="assets/SVGs/settings.svg" />
+                    </p>
+                    <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                    <div class="container">
+                        <div class="row" style="text-align: center;">
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/05. WebDesignIcon.svg" />
+                                    <p class="service_title">Web Design</p>
+                                    <p class="service_desc">Are you in search of the best web design company?.
+                                        Klart'Digi
+                                        has an
+                                        acknowledged presence in web designing and website development.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/06. ERPICON.svg" />
+                                    <p class="service_title">ERP System</p>
+                                    <p class="service_desc">The Enterprise Resource Planning (ERP) software is a
+                                        software
+                                        platform
+                                        that combines multiple types of enterprise-critical software in a single
+                                        interface.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/07. DigitalSign_Icon.svg" />
+                                    <p class="service_title">Digital Signature</p>
+                                    <p class="service_desc">Real-time solution to let go of, your distance and save time
+                                        by
+                                        signing
+                                        your document online. Sign it and go ahead without any delay.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/08. SMM_Icon.svg" />
+                                    <p class="service_title">Social Media Marketing</p>
+                                    <p class="service_desc">Our social media marketing service will ensure your business
+                                        is
+                                        well
+                                        positioned across all social media platforms, leading to increased visibility
+                                        and
+                                        sales.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/09. MobileApp_Icon.svg" />
+                                    <p class="service_title">Mobile Applications</p>
+                                    <p class="service_desc">We develop bespoke Android and IOS applications for all your
+                                        business
+                                        requirements that makes you unique and competitive.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/10. CiniBot_Icon.svg" />
+                                    <p class="service_title">Cinibot (TMS)</p>
+                                    <p class="service_desc">A smart theatre management system with infinite
+                                        possibilities
+                                        for
+                                        theatre growth and spectator comfort. A smart system, for smart movie theatre of
+                                        intelligent
+                                        business owners.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="section">
+                                    <img class="service_icon" src="assets/SVGs/11. MMA_Icon.svg" />
+                                    <p class="service_title">Mass Media Advertisement</p>
+                                    <p class="service_desc">We make high quality, innovative digital video for your
+                                        product
+                                        and
+                                        business for mass media advertising. We have a committed team.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="why_choose_us">
+            <p class="why">WHY CHOOSE US?
+            </p>
+            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="choose_icon" src="assets/SVGs/12. quality.svg" />
+                        <p class="text">Quality Work</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="choose_icon" src="assets/SVGs/13. Timely_Delivery.svg" />
+                        <p class="text">Timely Delivery</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="choose_icon" src="assets/SVGs/14. 24Hours Supp.svg" />
+                        <p class="text">24 Hours Support</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="choose_icon" src="assets/SVGs/15. optimizeWork.svg" />
+                        <p class="text">Optimize Your Work</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="choose_icon" src="assets/SVGs/16. LowPrice.svg" />
+                        <p class="text">Low Prices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="About Us_mob">
+            <div class="about_us">
+                <div>
+                    <div style="text-align: center;">
+                        <img class="img" src="assets/Phone/SVGs/AboutUs_3D.svg" />
+                    </div>
+                    <div>
+                        <div class="box">
+                            <p class="title">ABOUT US
+                            </p>
+                            <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+                            <p class="desc">The shifting paradigms of today’s corporate world demand that businesses
+                                reinvent themselves technologically and Strategically. The success story of any
+                                entrepreneur
+                                depends on his service provider. Klart'Digi delivers client-focused, multi-disciplinary
+                                solutions to complex challenges and opportunities to achieve tangible and sustainable
+                                enterprise value through disciplined execution of tailored business strategies. We are
+                                the
+                                first to revolutionize cinematographic theatre thanks to our cutting-edge methodology
+                                through CiniBot. A new way to experience your cinema time and an incredible way for
+                                theatre's to manage their operations and fill the chairs.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="get_in_touch">
+            <p class="content">GET IN TOUCH WITH US NOW TO KNOW MORE!
+            </p>
+            <button (click)="openMobileDialog('Others')" mat-button>Contacts Now</button>
+            <div style="text-align: end;">
+                <img class="img" src="assets/SVGs/18. ThumpsUp_3D.svg" />
+            </div>
+        </div>
+
+        <div class="footer">
+            <img class="img" src="assets/Phone/SVGs/Logo Top.svg" />
+            <div>
+                <img class="icon mouse" src="assets/PNGs/facebook.png" />
+                <img class="icon mouse" src="assets/PNGs/intsa.png" />
+                <img class="icon mouse" src="assets/PNGs/LINKDN.png" />
+            </div>
+
+            <div class="links">
+                <p>Home</p>
+                <p>Products</p>
+                <p>About Us</p>
+                <p>Services</p>
+            </div>
+            <p class="copyrights">Copyrights@2021. All rights reserved.</p>
+        </div>
+
+    </div>
+</div> -->

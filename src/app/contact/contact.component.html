@@ -1,0 +1,139 @@
+<div id="web" *ngIf="type=='web'" class="container" style=" background: #0b0e2c;;width: 100%;height: 100%;">
+    <div class="row">
+        <div class="col-sm-6" style="padding: 0px;">
+            <div class="box">
+                <img class="img" src="assets/SVGs/19. ContactUs_Illustration.svg" />
+                <p>
+                    <img src="assets/PNGs/pin.png" />&nbsp;
+                    New Perungalathur,
+                    Srinivasanagar,
+                    Chennai,
+                    Tamilnadu- 600063.
+                </p>
+                <p>
+                    <img src="assets/PNGs/mail.png" />&nbsp;
+                    sales@klartdigi.com
+                </p>
+                <p>
+                    <img src="assets/PNGs/mobile.png" />&nbsp;
+                    +91 9787089412, +91 8904222694
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div style="text-align: end;">
+                <mat-icon (click)="close()" class="close" aria-hidden="false" aria-label="Example home icon">
+                    highlight_off
+                </mat-icon>
+            </div>
+            <div>
+                <p class="title">GET IN TOUCH
+                </p>
+                <p class="text">We Are Excited To Hear From You</p>
+            </div>
+            <div class="input_box">
+                <input style="border: none;" type="text" autocomplete="off" placeholder="Full Name">
+            </div>
+            <div class="input_phone">
+                <select required class="select_box" [(ngModel)]="countryCode">
+                    <option [value]="country.countryCodes" *ngFor="let country of countryCodes">{{country.countryCodes}}
+                    </option>
+                </select>
+                <input style="border: none;" type="number" autocomplete="off" placeholder="Phone Number">
+            </div>
+            <!-- <div style="text-align: center;"> -->
+            <div class="input_box">
+                <input style="border: none;" type="email" autocomplete="off" placeholder="Email">
+            </div>
+            <!-- </div> -->
+            <div style="text-align: center;margin-top: 30px;">
+                <p class="need">Need Help For?</p>
+                <section class="example-section">
+                    <mat-checkbox *ngFor="let list of list" class="example-margin" [checked]="list.checked">
+                        {{list.name}}</mat-checkbox>
+                </section>
+            </div>
+            <div style="text-align: center;">
+                <textarea style="border: none;" type="text" placeholder="Type Your Message.."></textarea>
+            </div>
+            <div style="text-align: center;">
+                <button mat-button>Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="mobile">
+    <div *ngIf="type=='mobile'" class="popup">
+        <div class="container" style="padding: 0px;">
+            <div class="row">
+                <div class="col-sm-12" style="padding: 0px;">
+                    <div class="box_mob">
+                        <div style="text-align: end;">
+                            <mat-icon (click)="close()" class="close" aria-hidden="false"
+                                aria-label="Example home icon">
+                                highlight_off
+                            </mat-icon>
+                        </div>
+                        <img class="img" src="assets/SVGs/19. ContactUs_Illustration.svg" />
+                        <p>
+                            <img src="assets/PNGs/pin.png" />&nbsp;
+                            New Perungalathur,
+                            Srinivasanagar,
+                            Chennai,
+                            Tamilnadu- 600063.
+                        </p>
+                        <p>
+                            <img src="assets/PNGs/mail.png" />&nbsp;
+                            sales@klartdigi.com
+                        </p>
+                        <p style="padding-bottom: 55px;margin:15px 50px;">
+                            <img src="assets/PNGs/mobile.png" />&nbsp;
+                            +91 9787089412, +91 8904222694
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 bottom">
+                    <div>
+                        <p class="title_mob">GET IN TOUCH
+                        </p>
+                        <p class="text_mob">We Are Excited To Hear From You</p>
+                    </div>
+                    <div class="input_box_mob">
+                        <input style="border: none;color: white;" matInput autofocus="off" autocomplete="nope"
+                            type="text" placeholder="Full Name">
+
+                    </div>
+                    <div class="input_box_mob">
+                        <input style="border: none;" matInput autofocus="off" autocomplete="nope" type="email" placeholder="Email">
+                    </div>
+                    <!-- <div class="input_box_mob">
+                        <input style="border: none;" autocomplete="nope" type="number" placeholder="Phone">
+                    </div> -->
+                    <div class="input_box_phone">
+                        <select required class="select_box" [(ngModel)]="countryCode">
+                            <option [value]="country.countryCodes" *ngFor="let country of countryCodes">
+                                {{country.countryCodes}}
+                            </option>
+                        </select>
+                        <input style="border: none;" type="number" matInput autofocus="off" autocomplete="nope"
+                            placeholder="Phone Number">
+                    </div>
+                    <div style="text-align: center;margin-top: 30px;">
+                        <p class="need">Need Help For?</p>
+                        <section class="example-section">
+                            <mat-checkbox *ngFor="let list of list" class="example-margin" [checked]="list.checked">
+                                {{list.name}}</mat-checkbox>
+                        </section>
+                    </div>
+                    <div style="text-align: center;">
+                        <textarea style="border: none;" type="text" placeholder="Type Your Message.."></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button mat-button>Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
