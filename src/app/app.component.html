@@ -30,16 +30,27 @@
     <div id="Home">
       <div class="container2">
         <div class="social_media">
-          <img (click)="selectTitle('Cinibot')" class="icon mouse"
-            src="assets/PNGs/aboutus.png" />
-          <img (click)="selectTitle('ItSolutions')"class="icon mouse"
-            src="assets/PNGs/services.png" />
-          <img (click)="selectTitle('LogisticsERP')" class="icon mouse"
-            src="assets/PNGs/how.png" />
+          <ejs-tooltip id='tooltip' cssClass='customtooltip' content='Who We Are !!'  target="#target" position="RightCenter">
+            <img (click)="selectTitle('Cinibot')" id="target" class="icon mouse" src="assets/PNGs/team2.png" />
+          </ejs-tooltip>
+          <ejs-tooltip id='tooltip' cssClass='customtooltip' content='What We Do !!'  target="#target" position="RightCenter">
+            <img (click)="selectTitle('ItSolutions')"  id="target" class="icon mouse" src="assets/PNGs/services.png" />
+          </ejs-tooltip>
+          <ejs-tooltip id='tooltip' cssClass='customtooltip' content='How We Do !!'  target="#target" position="RightCenter">
+            <img (click)="selectTitle('LogisticsERP')" id="target" class="icon mouse" src="assets/PNGs/how2.png" />
+
+          </ejs-tooltip>
+          
+          
+          <div id='container' style="display: inline-block; position: relative; left: 9%;top: 0;transform: translateX(-70%);">
+            
+        </div>
+          
           <!-- <img (click)="openSite('https://twitter.com/KlartDigi')" class="icon mouse twitter"
             src="assets/SVGs/twitter.svg" />
           <div></div> -->
         </div>
+        
         <div>
           <div>
             <p class="empower">Empowering the <span>Internet</span> generation.</p>
@@ -47,13 +58,16 @@
               revolutionize cinematographic theatre thanks to our cutting-edge methodology through CiniBot.</p>
             <button class="button" (click)="parallaxScroll()" mat-button>Learn More</button>
           </div>
-          <div class="renault">
+          <!-- <div class="renault">
             <img class="img" src="assets/SVGs/renault.svg" />
             <img class="line" src="assets/SVGs/Rectangle 55.svg" />
+          </div> -->
+          <div>
+            <img src="assets/SVGs/01. Hero_Bg.svg" class="img">    
           </div>
         </div>
       </div>
-      <div  (click)="parallaxScroll()" style="text-align: center;margin-top: 80px; margin-left: 500px;">
+      <div  (click)="parallaxScroll()" style="text-align: center;margin-top: -80px; margin-left: 500px;">
         <img class="mouse" src="assets/SVGs/Vector.svg" />
       </div>
     </div>
@@ -73,10 +87,13 @@
               <p class="desc">Worlds best Theatre Operation Management System (SaaS). CiniBot brings light
                 and opportunities for theatres to market and realize economies of scale through strategic
                 and systematic theatre management. Manage your theatre comfortably with us.</p>
-              <button mat-button class="button" (click)="visit()">Visit Site</button>
-              <button class="button" (click)="openDialog('Cinibot')" mat-button class="contact">Contact Us</button>
+              <!-- <button mat-button class="button" (click)="visit()">Visit Site</button> -->
+              <!-- <button class="button" (click)="openDialog('Cinibot')" mat-button class="contact">Contact Us</button> -->
             </div>
           </div>
+        </div>
+        <div>
+          <img class="downarrow" (click)="selectTitle('ItSolutions')" src="assets/PNGs/downarrow.png" />
         </div>
       </div>
       <div class="container4" id="ItSolutions">
@@ -97,8 +114,10 @@
           </div>
          </div> -->
          <h1 >WHAT WE DO !</h1>
+         <img class="line" src="assets/SVGs/Rectangle 55.svg" style="margin-left: -220px; width: 230px; margin-top: -40px;" />
+
          <div class="carousel">
-              <ejs-carousel cssClass="default-carousel">
+              <!-- <ejs-carousel cssClass="default-carousel">
                 <e-carousel-items>
                   <e-carousel-item>
                     <ng-template #template>
@@ -143,17 +162,109 @@
                     </ng-template>
                   </e-carousel-item>
                 </e-carousel-items>
+              </ejs-carousel> -->
+              <ejs-carousel cssClass="kb-carousel" [autoPlay]="false" [showPlayButton]="true">
+                <e-carousel-items>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <div class="product-container">
+                        <div class="col-sm-5 component-container">
+                          <div class="heading">San Francisco</div>
+                          <div class="description">
+                            San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and
+                            financial center in the U.S. state of California.
+                          </div>
+                          <a class="demo" href="https://en.wikipedia.org/wiki/San_Francisco" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="col-sm-5 image-container">
+                          <picture>
+                            <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                          </picture>
+                        </div>
+                      </div>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <div class="product-container">
+                        <div class="col-sm-5 component-container">
+                          <div class="heading">London</div>
+                          <div class="description">
+                            London, the capital of England and the United Kingdom, is a 21st-century city with history
+                            stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic
+                            ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations.
+                          </div>
+                          <a class="demo" href="https://en.wikipedia.org/wiki/London" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="col-sm-5 image-container">
+                          <picture>
+                            <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                          </picture>
+                        </div>
+                      </div>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <div class="product-container">
+                        <div class="col-sm-5 component-container">
+                          <div class="heading">Tokyo</div>
+                          <div class="description">
+                            Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to
+                            historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding
+                            woods. The Imperial Palace sits amid large public gardens.
+                          </div>
+                          <a class="demo" href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="col-sm-5 image-container">
+                          <picture>
+                            <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                          </picture>
+                        </div>
+                      </div>
+                    </ng-template>
+                  </e-carousel-item>
+                  <e-carousel-item>
+                    <ng-template #template>
+                      <div class="product-container">
+                        <div class="col-sm-5 component-container">
+                          <div class="heading">Moscow</div>
+                          <div class="description">
+                            Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic
+                            core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury.
+                            Outside its walls is Red Square, Russia's symbolic center.
+                          </div>
+                          <a class="demo" href="https://en.wikipedia.org/wiki/Moscow" target="_blank">READ MORE</a>
+                        </div>
+                        <div class="col-sm-5 image-container">
+                          <picture>
+                            <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                          </picture>
+                        </div>
+                      </div>
+                    </ng-template>
+                  </e-carousel-item>
+                </e-carousel-items>
               </ejs-carousel>
             </div>
 
 
 
 
-
+            <div>
+              <img class="downarrow" (click)="selectTitle('LogisticsERP')" src="assets/PNGs/downarrow.png" />
+            </div>
 
       </div>
       <div class="container5" id="LogisticsERP">
         <h1>HOW WE DO !</h1>
+        <img class="line" src="assets/SVGs/Rectangle 55.svg" style="margin-left: -220px; width: 230px; margin-top: -40px;" />
+
+
           <!-- <div>
             <img class="img" src="assets/SVGs/04. Logistics_Illustration.svg" />
           </div>
@@ -167,7 +278,7 @@
             <button class="button" (click)="openDialog('Logistics ERP')" mat-button>Contact Us</button>
           </div> -->
           <div class="carousel">
-            <ejs-carousel cssClass="default-carousel">
+            <!-- <ejs-carousel cssClass="default-carousel">
               <e-carousel-items>
                 <e-carousel-item>
                   <ng-template #template>
@@ -196,6 +307,94 @@
                   </ng-template>
                 </e-carousel-item>
         
+              </e-carousel-items>
+            </ejs-carousel> -->
+
+            <ejs-carousel cssClass="kb-carousel" [autoPlay]="false" [showPlayButton]="true">
+              <e-carousel-items>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <div class="product-container">
+                      <div class="col-sm-5 component-container">
+                        <div class="heading">San Francisco</div>
+                        <div class="description">
+                          San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and
+                          financial center in the U.S. state of California.
+                        </div>
+                        <a class="demo" href="https://en.wikipedia.org/wiki/San_Francisco" target="_blank">READ MORE</a>
+                      </div>
+                      <div class="col-sm-5 image-container">
+                        <picture>
+                          <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                            alt="San Francisco" />
+                        </picture>
+                      </div>
+                    </div>
+                  </ng-template>
+                </e-carousel-item>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <div class="product-container">
+                      <div class="col-sm-5 component-container">
+                        <div class="heading">London</div>
+                        <div class="description">
+                          London, the capital of England and the United Kingdom, is a 21st-century city with history
+                          stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic
+                          ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations.
+                        </div>
+                        <a class="demo" href="https://en.wikipedia.org/wiki/London" target="_blank">READ MORE</a>
+                      </div>
+                      <div class="col-sm-5 image-container">
+                        <picture>
+                          <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                        </picture>
+                      </div>
+                    </div>
+                  </ng-template>
+                </e-carousel-item>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <div class="product-container">
+                      <div class="col-sm-5 component-container">
+                        <div class="heading">Tokyo</div>
+                        <div class="description">
+                          Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to
+                          historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding
+                          woods. The Imperial Palace sits amid large public gardens.
+                        </div>
+                        <a class="demo" href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">READ MORE</a>
+                      </div>
+                      <div class="col-sm-5 image-container">
+                        <picture>
+                          <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                        </picture>
+                      </div>
+                    </div>
+                  </ng-template>
+                </e-carousel-item>
+                <e-carousel-item>
+                  <ng-template #template>
+                    <div class="product-container">
+                      <div class="col-sm-5 component-container">
+                        <div class="heading">Moscow</div>
+                        <div class="description">
+                          Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic
+                          core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury.
+                          Outside its walls is Red Square, Russia's symbolic center.
+                        </div>
+                        <a class="demo" href="https://en.wikipedia.org/wiki/Moscow" target="_blank">READ MORE</a>
+                      </div>
+                      <div class="col-sm-5 image-container">
+                        <picture>
+                          <img style="width:100%; height:100%" src="assets/SVGs/renault.svg"
+                              alt="San Francisco" />
+                        </picture>
+                      </div>
+                    </div>
+                  </ng-template>
+                </e-carousel-item>
               </e-carousel-items>
             </ejs-carousel>
           </div>

@@ -8,14 +8,17 @@
 @import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
 
+//tootip
+
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 body {

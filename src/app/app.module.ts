@@ -11,6 +11,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselAllModule } from '@syncfusion/ej2-angular-navigations';
+import { TooltipModule } from '@syncfusion/ej2-angular-popups';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { CarouselAllModule } from '@syncfusion/ej2-angular-navigations';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    CarouselAllModule
+    CarouselAllModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
