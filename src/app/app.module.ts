@@ -12,12 +12,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselAllModule } from '@syncfusion/ej2-angular-navigations';
 import { TooltipModule } from '@syncfusion/ej2-angular-popups';
+import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
+import { D3OrgChartComponent } from './d3-org-chart/d3-org-chart.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent
+    ContactComponent,
+    D3OrgChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,8 @@ import { TooltipModule } from '@syncfusion/ej2-angular-popups';
     FormsModule,
     ReactiveFormsModule,
     CarouselAllModule,
-    TooltipModule
+    TooltipModule,
+    DiagramModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
