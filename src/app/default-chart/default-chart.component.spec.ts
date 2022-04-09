@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { D3OrgChartComponent } from './d3-org-chart.component';
+import { DefaultChartComponent } from './default-chart.component';
 
-describe('D3OrgChartComponent', () => {
-  let component: D3OrgChartComponent;
-  let fixture: ComponentFixture<D3OrgChartComponent>;
+describe('DefaultChartComponent', () => {
+  let component: DefaultChartComponent;
+  let fixture: ComponentFixture<DefaultChartComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ D3OrgChartComponent ]
+      declarations: [ DefaultChartComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(D3OrgChartComponent);
+    fixture = TestBed.createComponent(DefaultChartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

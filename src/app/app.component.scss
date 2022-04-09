@@ -173,6 +173,12 @@
       margin: auto;
       border-bottom: 5px solid #ec4740;
 
+      .content{
+        width: 90vw;
+        margin: auto;
+      
+      }
+
       h1{
         font-size: 40px;
         font-family: sans-serif;
@@ -183,7 +189,7 @@
 
       .downarrow{
         margin-left: 50vw;
-        margin-top: 80vh;
+        // margin-top: 80vh;
        
       }
 

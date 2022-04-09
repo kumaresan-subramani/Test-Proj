@@ -12,18 +12,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselAllModule } from '@syncfusion/ej2-angular-navigations';
 import { TooltipModule } from '@syncfusion/ej2-angular-popups';
-import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
-import { D3OrgChartComponent } from './d3-org-chart/d3-org-chart.component';
-
-
-
+import { DefaultChartComponent } from './default-chart/default-chart.component';
+import { OrgchartModule } from '@dabeng/ng-orgchart';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContactComponent,
-    D3OrgChartComponent,
-  ],
+  declarations: [AppComponent, ContactComponent, DefaultChartComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -37,9 +30,9 @@ import { D3OrgChartComponent } from './d3-org-chart/d3-org-chart.component';
     ReactiveFormsModule,
     CarouselAllModule,
     TooltipModule,
-    DiagramModule,
+    OrgchartModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
