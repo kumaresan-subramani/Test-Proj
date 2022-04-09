@@ -25,7 +25,7 @@
 
       
       #container{
-        height: 360px;
+        height: 355px;
       }
       
     }
@@ -173,9 +173,17 @@
       margin: auto;
       border-bottom: 5px solid #ec4740;
 
+      h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #3cf9ff;
+        padding: 30px;
+      }
+
       .downarrow{
         margin-left: 50vw;
-        margin-top: 24vh;
+        margin-top: 80vh;
        
       }
 
