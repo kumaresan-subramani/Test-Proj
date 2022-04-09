@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "d3-org-chart": "^1.0.12",
-    "d3":"5.15.1",
+    "d3": "5.15.1",
+    "@types/d3-dsv": "1.0.32",
+    "@types/d3": "4.4.0",
     "@angular/animations": "11.2.10",
     "@angular/cdk": "11.2.10",
     "@angular/common": "11.2.10",
