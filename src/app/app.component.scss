@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100%;
     background: linear-gradient(72.59deg, #1f58d3 -60.06%, #031449 74.15%);
-    border-bottom: 5px solid #ec4740;
+    // border-bottom: 5px solid #ec4740;
 
   }
 
@@ -29,20 +29,11 @@
       }
       
     }
-   .renault{
-     .line{
-       width: 400px;
-       margin-top: 70vh;
-       margin-left: -22vw;
-       box-shadow: #ec4740 0px 5px, #b93f3b  0px 10px, #7a3230 0px 15px, #522a28 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-      
-     }
-   }
 
-    .img {
-      // margin-top: 15px;
-      margin-left: 10vw;
-    }
+    // .img {
+    //   // margin-top: 15px;
+    //   margin-left: 10vw;
+    // }
 
     .empower {
       
@@ -171,7 +162,7 @@
     .container3 {
       height: 100vh;
       margin: auto;
-      border-bottom: 5px solid #ec4740;
+      // border-bottom: 5px solid #ec4740;
 
       .content{
         width: 90vw;
@@ -222,7 +213,7 @@
     .container4 {
       height: 100vh;
       margin: auto;
-      border-bottom: 5px solid #ec4740;
+      // border-bottom: 5px solid #ec4740;
   
      
       .downarrow{
@@ -248,7 +239,7 @@
         padding: 30px;
       }
       .carousel{
-        height: 700px;
+        height: 550px;
         width: 100%;
         .default-carousel-section .carousel-sample {
           margin: 0 auto 2em;
@@ -292,11 +283,11 @@
     .container5 {
       height: 100vh;
       margin: auto;
-      border-bottom: 5px solid #ec4740;
+      // border-bottom: 5px solid #ec4740;
 
 
       .carousel{
-        height: 700px;
+        height: 550px;
         width: 100%;
 
         .default-carousel-section .carousel-sample {
@@ -489,7 +480,7 @@
       position: absolute;
       height: 500px;
       width: 800px;
-      top: 590vh;
+      top: 650vh;
       border-top-right-radius: 500px;
       border-bottom-right-radius: 500px;
       background: #181637;
