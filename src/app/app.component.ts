@@ -2,7 +2,6 @@ import { Component, HostListener, ViewEncapsulation,OnInit } from '@angular/core
 import { MatDialog } from '@angular/material/dialog';
 import { ContactComponent } from './contact/contact.component';
 import { enableRipple } from '@syncfusion/ej2-base';
-import * as d3 from "d3";
 
 enableRipple(true);
 
